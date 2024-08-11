@@ -1,0 +1,36 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.5.7
+    hooks:
+      - id: ruff
+        name: Ruff lint - general
+        description: "Run ruff for fast general Python linting"
+        entry: ruff check --force-exclude
+        language: python
+        types_or: [python, pyi]
+        args: 
+          [
+            "--line-length=120",
+            "--fix"
+          ]
+      - id: ruff
+        name: Ruff lint - complexity analysis
+        description: "Run ruff for code complexity analysis"
+        entry: ruff check --force-exclude --select C90
+        language: python
+        types_or: [python, pyi]
+        args: []
+      - id: ruff
+        name: Ruff lint - organize imports
+        description: "Run ruff for sorting and categorizing imports"
+        entry: ruff check --force-exclude --select I
+        language: python
+        types_or: [python, pyi]
+        args: ["--fix"]
+      - id: ruff-format
+        name: Ruff format
+        description: "Run ruff for automatic code formatting"
+        entry: ruff format --force-exclude
+        language: python
+        types_or: [python, pyi]
+        args: ["--line-length=120"]
