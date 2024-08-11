@@ -40,7 +40,7 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 
 
 ## About
-This is the repository of team sparc-me (Team #3) of the 2024 SPARC Codeathon. Information about the 2024 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2024-sparc-fair-codeathon). 
+This is the repository of team sparc-imp (Team #3) of the 2024 SPARC Codeathon. Information about the 2024 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2024-sparc-fair-codeathon). 
 
 No work was done on this project prior to the Codeathon. 
 ## Introduction
