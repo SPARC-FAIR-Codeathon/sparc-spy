@@ -59,7 +59,7 @@ In the current landscape of data science and research, visualizing data is cruci
 - Without a standardized approach to creating and sharing visualizations, researchers may struggle to replicate or adapt visualizations for different datasets or research contexts.
 
 ## Our solution: spark-imp
-We have developed a cross-platform Python visualisation tool called the SPARC Python Imager (sparc-imp) to run within o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. This Python module enhancess the FAIRness of SPARC data by:
+We have developed a cross-platform Python visualisation tool called the SPARC Python Imager (sparc-imp) to run within o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. This Python module enhancess the **FAIR**ness of SPARC data by:
 - **F**indability
   - Enhanced Metadata: The tool can extract and attach metadata to visualizations, making it easier to locate specific datasets and their visual representations.
   - Searchability: By tagging visualizations with relevant keywords and descriptions, users can quickly find the visual data they need.
