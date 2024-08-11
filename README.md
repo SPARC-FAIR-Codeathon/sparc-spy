@@ -43,7 +43,6 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 This is the repository of team sparc-me (Team #3) of the 2024 SPARC Codeathon. Information about the 2024 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2024-sparc-fair-codeathon). 
 
 No work was done on this project prior to the Codeathon. 
-
 ## Introduction
 The NIH Common fund program *Stimulating Peripheral Activity to Relieve Conditions* [SPARC](https://commonfund.nih.gov/sparc) seeks to understand how electrical signals control internal organ function. In doing so it explores how therapeutic devices might modulate nerve activity to treat conditions like hypertension, heart failure, and gastrointestinal disorders. To this end, data have been compiled from 3900+ subjects across 7 species from  49 different anatomical structures.  
 
@@ -75,7 +74,10 @@ We have developed a cross-platform Python visualisation tool called the SPARC Py
   - Version Control: Implementing version control for visualizations ensures that users can track changes and reuse previous versions as needed.
     
 ## Impact
-TODO
+### Improve existing capabilities of SPARC tools with direct integration
+The sparc-imp tool has been developed to integrate existing SPARC tools such as Pennsieve and sparc-me. This allows for a streamlined process within the SPARC ecosystem from downloading datasets to generating visualisations. By supporting standardised data formats this tool is highly interoperable with existing tools, improving the capabilities and experience of the SPARC platform. The capabilities of spark-imp extend further as it can query metadata and embeded within the visualisations to provide powerful analyses (e.g. scaffold volume). This tool is provided alongside comprehensive documentation to ensure a user-friendly experience, empowering researchers to integrate sparc-imp into their workflows for more consistent and reproducible visualisations. 
+
+
 
 ## Setting up sparc-imp
 ### Pre-requisites 
