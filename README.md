@@ -1,6 +1,6 @@
 # SPARC Python Imager (sparc-imp)
 
-A python tool to enhance the 
+A python tool to enhance the accessibility of SPARC dataset visualisations and their analyses in accordance with FAIR principles. 
 
 ![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
 [![Contributors][contributors-shield]][contributors-url]
@@ -12,19 +12,19 @@ A python tool to enhance the
 [![PyPI version fury.io][pypi-shield]][pypi-url]
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
 
-[contributors-shield]: https://img.shields.io/github/contributors/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[contributors-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[stars-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[issues-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/{GITHUB_ACCOUNT}/{REPO_NAME}.svg
+[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-Codeathon/sparc-imp.svg?style=flat-square
+[contributors-url]: https://github.com/SPARC-FAIR-Codeathon/sparc-imp/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-Codeathon/sparc-imp.svg?style=flat-square
+[stars-url]: https://github.com/SPARC-FAIR-Codeathon/sparc-imp//stargazers
+[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-Codeathon/sparc-imp/.svg?style=flat-square
+[issues-url]: https://github.com/SPARC-FAIR-Codeathon/sparc-imp/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-Codeathon/sparc-imp.svg
 [issues-closed-url]: https://GitHub.com/SPARC-FAIR-Codeathon/sparc-me/issues?q=is%3Aissue+is%3Aclosed
-[license-shield]: https://img.shields.io/github/license/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[license-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-Codeathon/sparc-imp.svg?style=flat-square
+[license-url]: https://github.com/SPARC-FAIR-Codeathon/sparc-imp/blob/master/LICENSE
 [code-of-conduct-shield]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
-[pypi-shield]: https://badge.fury.io/py/{PYPI_PROJECT_NAME}.svg
-[pypi-url]: https://pypi.python.org/pypi/{PYPI_PROJECT_NAME}}/
+[pypi-shield]: https://badge.fury.io/py/{sparc_imp}.svg
+[pypi-url]: https://pypi.python.org/pypi/{sparc_imp}}/
 [conventional-commits-shield]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white
 [conventional-commits-url]: https://conventionalcommits.org
 
