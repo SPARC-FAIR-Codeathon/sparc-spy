@@ -114,31 +114,31 @@ TODO
 </thead>
 <tbody>
   <tr>
-    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    <td><a href="SPARC-FAIR-Codeathon/sparc-imp/blob/maintutorials/tutorial_1_getting_started.ipynb.ipynb">
     Tutorial 1: 
     </a></td>
     <td> **Getting started** - In this tutorial we use sparc-imp to import a json scaffold file from a public dataset and visualise it within a jupyter notebook running on o<sup>2</sup>S<sup>2</sup>PARC.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/blob/maintutorials/tutorial_2_finding_scaffolds">
     Tutorial 2: 
     </a></td>
-    <td> **Finding the one** - In this tutorial we show how sparc-imp can be used to identify scaffolds within a given sparc dataset.</td>
+    <td> **Finding scaffolds** - In this tutorial we show how sparc-imp can be used to identify scaffolds within a given sparc dataset.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_3_generating_analytics.ipynb">
     Tutorial 3: 
     </a></td>
-    <td> **Closer inspection** - In this tutorial we show how sparc-imp can be use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
+    <td> **Generating analytics** - In this tutorial we show how sparc-imp can be use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_4_new_tags.ipynb">
     Tutorial 4: 
     </a></td>
     <td> **New tags** - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identift the data they need.</td>
   </tr> 
   <tr>
-    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_5_into_the_flow.ipynb">
     Tutorial 5: 
     </a></td>
     <td> **Into the flow** - In this tutorial we show how sparc-imp can be used with existing tools such as sparc-flow to simplify visualisation workflows.
