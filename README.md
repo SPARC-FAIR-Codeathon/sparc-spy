@@ -49,16 +49,17 @@ The NIH Common fund program *Stimulating Peripheral Activity to Relieve Conditio
 
 The SPARC Portal offers a user-friendly interface to access and share resources from the SPARC community. It features well-curated, high-impact data, SPARC projects, and computational simulations, all available under the “[Find Data](https://sparc.science/data?type=dataset)” section.
 ## The problem
-There is no single visualisation tool o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. 
+In the current landscape of data science and research, visualizing data is crucial for analysis, interpretation, and communication. However, existing tools for reconstructing visualizations from datasets are limited in their accessibility and interoperability. The primary tool available is restricted to the Windows operating system, creating significant barriers for users on other platforms such as macOS and Linux. This limitation hinders the application of the FAIR principles (Findable, Accessible, Interoperable, and Reusable) to data visualization:
 
-This limits the FAIRness of published data to researchers by:
-   - Creating a barrier to access results of published research (limits findability & accessibility).
-   - Requiring a specific platform (e.g. Windows) in order to run (limits accessibility & interoperability).
-   - 
-   - 
-   
+### Limited Accessibility:
+- Researchers and data scientists using non-Windows operating systems are unable to access the existing tool, leading to inefficiencies and potential data silos.
+### Poor Interoperability:
+- The existing tool may not support integration with other widely-used data analysis tools or workflows, making it difficult to share and collaborate on visualizations across different platforms and software environments.
+### Challenges in Reusability:
+- Without a standardized approach to creating and sharing visualizations, researchers may struggle to replicate or adapt visualizations for different datasets or research contexts.
+
 ## Our solution: spark-imp
-We have developed a python module called the SPARC Python Imager (sparc-imp) that enhancess the FAIRness of SPARC data by:
+We have developed a cross-platform Python visualisation tool called the SPARC Python Imager (sparc-imp) to run within o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. This Python module enhancess the FAIRness of SPARC data by:
 - **F**indability
   - Enhanced Metadata: The tool can extract and attach metadata to visualizations, making it easier to locate specific datasets and their visual representations.
   - Searchability: By tagging visualizations with relevant keywords and descriptions, users can quickly find the visual data they need.
