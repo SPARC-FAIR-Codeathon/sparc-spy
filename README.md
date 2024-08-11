@@ -40,40 +40,45 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 
 
 ## About
-This is the repository of team sparc-me (Team #3) of the 2024 SPARC Codeathon. Information about the 2024 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2024-sparc-fair-codeathon). 
+This is the repository of team sparc-imp (Team #3) of the 2024 SPARC Codeathon. Information about the 2024 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2024-sparc-fair-codeathon). 
 
 No work was done on this project prior to the Codeathon. 
-
 ## Introduction
-The NIH Common fund program *Stimulating Peripheral Activity to Relieve Conditions* [SPARC](https://commonfund.nih.gov/sparc) seeks to understand how electrical signals control internal organ function. In doing so it explores how therapeutic devices might modulate nerve activity to treat conditions like hypertension, heart failure, and gastrointestinal disorders. To this end, data have been compiled from 3900+ subjects across 7 species from  49 different anatomical structures.  
+The NIH Common fund program *Stimulating Peripheral Activity to Relieve Conditions* ([SPARC](https://commonfund.nih.gov/sparc)) seeks to understand how electrical signals control internal organ function. In doing so it explores how therapeutic devices might modulate nerve activity to treat conditions like hypertension, heart failure, and gastrointestinal disorders. To this end, data have been compiled from 3900+ subjects across 7 species from  49 different anatomical structures.  
 
 The SPARC Portal offers a user-friendly interface to access and share resources from the SPARC community. It features well-curated, high-impact data, SPARC projects, and computational simulations, all available under the “[Find Data](https://sparc.science/data?type=dataset)” section.
 ## The problem
-There is no single visualisation tool o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. 
+In the current landscape of data science and research, visualizing data is crucial for analysis, interpretation, and communication. However, existing tools for reconstructing visualizations from datasets are limited in their accessibility and interoperability. The primary tool available is restricted to the Windows operating system, creating significant barriers for users on other platforms such as macOS and Linux. This limitation hinders the application of the FAIR principles (Findable, Accessible, Interoperable, and Reusable) to data visualization:
 
-This limits the FAIRness of published data to researchers by:
-   - Creating a barrier to access results of published research (limits findability & accessibility).
-   - Requiring a specific platform (e.g. Windows) in order to run (limits accessibility & interoperability).
-   - 
-   - 
-   
+### Limited Accessibility:
+- Researchers and data scientists using non-Windows operating systems are unable to access the existing tool, leading to inefficiencies and potential data silos.
+### Poor Interoperability:
+- The existing tool may not support integration with other widely-used data analysis tools or workflows, making it difficult to share and collaborate on visualizations across different platforms and software environments.
+### Challenges in Reusability:
+- Without a standardized approach to creating and sharing visualizations, researchers may struggle to replicate or adapt visualizations for different datasets or research contexts.
+
 ## Our solution: spark-imp
-We have developed a python module called the SPARC Python Imager (sparc-imp) that enhancess the FAIRness of SPARC data by:
+We have developed a cross-platform Python visualisation tool called the SPARC Python Imager (sparc-imp) to run within o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. This Python module enhancess the **FAIR**ness of SPARC data by:
 - **F**indability
-  - Visualising data and metadata within SDS datasets.
+  - Enhanced Metadata: The tool can extract and attach metadata to visualizations, making it easier to locate specific datasets and their visual representations.
+  - Searchability: By tagging visualizations with relevant keywords and descriptions, users can quickly find the visual data they need.
 - **A**ccessibility
-  - Accessing visualisations of curated SDS datasets and their metadata (using the Pennsieve API).
-  - Allowing a universally implementable visualisation.
+  - User-Friendly Interface: A well-designed tool can provide an intuitive interface for accessing and generating visualizations, lowering the barrier for users with varying levels of technical expertise.
+  - Light weight: A universally implementable visualisation tool can be run within o<sup>2</sup>S<sup>2</sup>PARC while accessing visualisations of curated SDS datasets and their metadata (using the Pennsieve API).
+  - Open Access: If the tool is open-source or freely available, it ensures that a wider audience can access and use it without restrictions.
 - **I**nteroperability
-  - Visualisations are achieved within a portable framework that ensures reproducibility.
+  - Standard Formats: The tool can support and export visualizations in standardized formats (e.g., JSON & VTK at present - can be expanded further), ensuring compatibility with other tools and platforms.
+  - APIs and Integration: By providing APIs and integration capabilities, the tool can work seamlessly with other data analysis and visualization workflows, promoting interoperability.
 - **R**eusability
-  - Comprehensive documentation and guided tutorials that can easily be adapted to new datasets or environments.
- 
-
-Tutorials have been provided to demonstrate how sparc-imp enhances FAIRness. 
+  - Documentation and Templates: The tool includes comprehensive documentation and reusable templates for common visualization types, making it easier for users to replicate and adapt visualizations for their own datasets.
+  - Version Control: Implementing version control for visualizations ensures that users can track changes and reuse previous versions as needed.
     
 ## Impact
-TODO
+### Improve existing capabilities of SPARC tools with direct integration
+The sparc-imp tool has been developed to integrate existing SPARC tools such as Pennsieve and sparc-me. This allows for a streamlined process within the SPARC ecosystem from downloading datasets to generating visualisations. By supporting standardised data formats this tool is highly interoperable with existing tools, improving the capabilities and experience of the SPARC platform. The capabilities of spark-imp extend further as it can query metadata and embeded within the visualisations to provide powerful analyses (e.g. scaffold volume). This tool is provided alongside comprehensive documentation to ensure a user-friendly experience, empowering researchers to integrate sparc-imp into their workflows for more consistent and reproducible visualisations. 
+
+### Increase visibility of the value within SPARC's public data 
+Visualizations can make complex data more engaging and easier to communicate to a broader audience, including those without a technical background. Using sparc-imp for reconstructing visualizations, researchers can more effectively analyze and interpret SPARC’s public data, making it more accessible and understandable, which in turn increases its visibility and impact. The tool can help users discover new insights and patterns within SPARC’s datasets, potentially leading to new research questions and applications and the end goal of effective treatments.
 
 ## Setting up sparc-imp
 ### Pre-requisites 
@@ -82,7 +87,7 @@ TODO
    - 3.9
 ###  Installing via PyPI
 
-Here is the [link](https://pypi.org/project/{PACKAGE_NAME}/) to our project on PyPI
+Here is the [link](https://pypi.org/project/{PACKAGE_NAME}/) to our project on PyPI TODO
 ```
 pip install sparc_imp
 ```
@@ -90,7 +95,7 @@ pip install sparc_imp
 #### Downloading source code
 Clone the sparc-imp repository from github, e.g.:
 ```
-git clone git@github.com:SPARC-FAIR-Codeathon/TODO
+git clone git@github.com:SPARC-FAIR-Codeathon/sparc-imp TODO
 ```
 
 ### Installing dependencies
@@ -100,8 +105,52 @@ TODO
 Included are guided tutorials covering some applications of sparc-imp:
 
 TODO
+<table>
+<thead>
+  <tr>
+    <th> Tutorial</th>
+    <th> Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="SPARC-FAIR-Codeathon/sparc-imp/blob/maintutorials/tutorial_1_getting_started.ipynb.ipynb">
+    Tutorial 1: 
+    </a></td>
+    <td> **Getting started** - In this tutorial we use sparc-imp to import a json scaffold file from a public dataset and visualise it within a jupyter notebook running on o<sup>2</sup>S<sup>2</sup>PARC.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/blob/maintutorials/tutorial_2_finding_scaffolds">
+    Tutorial 2: 
+    </a></td>
+    <td> **Finding scaffolds** - In this tutorial we show how sparc-imp can be used to identify scaffolds within a given sparc dataset.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_3_generating_analytics.ipynb">
+    Tutorial 3: 
+    </a></td>
+    <td> **Generating analytics** - In this tutorial we show how sparc-imp can be use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_4_new_tags.ipynb">
+    Tutorial 4: 
+    </a></td>
+    <td> **New tags** - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identift the data they need.</td>
+  </tr> 
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_5_into_the_flow.ipynb">
+    Tutorial 5: 
+    </a></td>
+    <td> **Into the flow** - In this tutorial we show how sparc-imp can be used with existing tools such as sparc-flow to simplify visualisation workflows.
+  </tr>
+</tbody>
+</table>
+<p align="center">
+</p>
+<br/>
+
 ## Reporting issues 
-To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/{REPO_NAME}/issues). TODO
+To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/sparc-imp/issues). TODO
 Please check existing issues before submitting a new one.
 ## Contributing
 
