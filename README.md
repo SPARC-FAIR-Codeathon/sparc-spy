@@ -118,6 +118,11 @@ TODO
 ## License
 sparc-imp is open source and distributed under the Apache License 2.0. See [LICENSE](https://github.com/SPARC-FAIR-Codeathon/2024-team-3/blob/main/LICENSE) for more information.
 ## Team
-TODO
+* [Michael Hoffman](https://github.com/Moffhan) (Writer)
+* [Yun Gu](https://github.com/greeyun) (Developer)
+* [Mishaim Malik](https://github.com/Mmal151) (Developer)
+* [Mishaim Malik](https://github.com/savindi-wijenayaka) (Developer)
+* [Matthew French](https://github.com/frenchmatthew) (Lead, SysAdmin)
 ## Acknowledgements
-TODO
+- We would like to thank the  2024 SPARC Codeathon organizers for their guidance and support during this Codeathon.
+
