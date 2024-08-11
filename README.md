@@ -29,10 +29,6 @@
 [conventional-commits-url]: https://conventionalcommits.org
 
 
-## HOW TO USE THIS TEMPLATE
-
-Please read [ABOUT_THIS_TEMPLATE](ABOUT_THIS_TEMPLATE.md), and delete this section.
-
 
 ## Table of contents
 * [About](#about)
