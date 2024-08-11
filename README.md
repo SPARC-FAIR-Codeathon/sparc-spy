@@ -49,7 +49,7 @@ The NIH Common fund program *Stimulating Peripheral Activity to Relieve Conditio
 
 The SPARC Portal offers a user-friendly interface to access and share resources from the SPARC community. It features well-curated, high-impact data, SPARC projects, and computational simulations, all available under the “[Find Data](https://sparc.science/data?type=dataset)” section.
 ## The problem
-There is no single visualisation tool O<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. 
+There is no single visualisation tool o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. 
 
 This limits the FAIRness of published data to researchers by:
    - Creating a barrier to access results of published research (limits findability & accessibility).
