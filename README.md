@@ -105,11 +105,50 @@ TODO
 Included are guided tutorials covering some applications of sparc-imp:
 
 TODO
-Tutorial 1: **Getting started** - In this tutorial we use sparc-imp to import a json scaffold file from a public dataset and visualise it within a jupyter notebook running on o<sup>2</sup>S<sup>2</sup>PARC.
-Tutorial 2: **Finding the one** - In this tutorial we show how sparc-imp can be used to identify scaffolds within a given sparc dataset.
-Tutorial 3: **Closer inspection** - In this tutorial we show how sparc-imp can be use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).
-Tutorial 4: **New tags** - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identift the data they need.
-Tutorial 5: **Into the flow** - In this tutorial we show how sparc-imp can be used with existing tools such as sparc-flow to simplify visualisation workflows.
+<table>
+<thead>
+  <tr>
+    <th> Tutorial</th>
+    <th> Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    Tutorial 1: 
+    </a></td>
+    <td> **Getting started** - In this tutorial we use sparc-imp to import a json scaffold file from a public dataset and visualise it within a jupyter notebook running on o<sup>2</sup>S<sup>2</sup>PARC.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    Tutorial 2: 
+    </a></td>
+    <td> **Finding the one** - In this tutorial we show how sparc-imp can be used to identify scaffolds within a given sparc dataset.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    Tutorial 3: 
+    </a></td>
+    <td> **Closer inspection** - In this tutorial we show how sparc-imp can be use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    Tutorial 4: 
+    </a></td>
+    <td> **New tags** - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identift the data they need.</td>
+  </tr> 
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp/TODO.ipynb">
+    Tutorial 5: 
+    </a></td>
+    <td> **Into the flow** - In this tutorial we show how sparc-imp can be used with existing tools such as sparc-flow to simplify visualisation workflows.
+  </tr>
+</tbody>
+</table>
+<p align="center">
+</p>
+<br/>
+
 ## Reporting issues 
 To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/sparc-imp/issues). TODO
 Please check existing issues before submitting a new one.
