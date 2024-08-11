@@ -1,6 +1,6 @@
-# {YOUR-PROJECT-NAME}
+# SPARC Python Imager (sparc-imp)
 
-{SHORT PROJECT DESCRIPTION}
+A python tool to enhance the accessibility of SPARC dataset visualisations and their analyses in accordance with FAIR principles. 
 
 ![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
 [![Contributors][contributors-shield]][contributors-url]
@@ -12,26 +12,22 @@
 [![PyPI version fury.io][pypi-shield]][pypi-url]
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
 
-[contributors-shield]: https://img.shields.io/github/contributors/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[contributors-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[stars-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[issues-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/{GITHUB_ACCOUNT}/{REPO_NAME}.svg
+[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-Codeathon/sparc-imp.svg?style=flat-square
+[contributors-url]: https://github.com/SPARC-FAIR-Codeathon/sparc-imp/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-Codeathon/sparc-imp.svg?style=flat-square
+[stars-url]: https://github.com/SPARC-FAIR-Codeathon/sparc-imp//stargazers
+[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-Codeathon/sparc-imp/.svg?style=flat-square
+[issues-url]: https://github.com/SPARC-FAIR-Codeathon/sparc-imp/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-Codeathon/sparc-imp.svg
 [issues-closed-url]: https://GitHub.com/SPARC-FAIR-Codeathon/sparc-me/issues?q=is%3Aissue+is%3Aclosed
-[license-shield]: https://img.shields.io/github/license/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[license-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-Codeathon/sparc-imp.svg?style=flat-square
+[license-url]: https://github.com/SPARC-FAIR-Codeathon/sparc-imp/blob/master/LICENSE
 [code-of-conduct-shield]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
-[pypi-shield]: https://badge.fury.io/py/{PYPI_PROJECT_NAME}.svg
-[pypi-url]: https://pypi.python.org/pypi/{PYPI_PROJECT_NAME}}/
+[pypi-shield]: https://badge.fury.io/py/{sparc_imp}.svg
+[pypi-url]: https://pypi.python.org/pypi/{sparc_imp}}/
 [conventional-commits-shield]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white
 [conventional-commits-url]: https://conventionalcommits.org
 
-
-## HOW TO USE THIS TEMPLATE
-
-Please read [ABOUT_THIS_TEMPLATE](ABOUT_THIS_TEMPLATE.md), and delete this section.
 
 
 ## Table of contents
@@ -44,27 +40,89 @@ Please read [ABOUT_THIS_TEMPLATE](ABOUT_THIS_TEMPLATE.md), and delete this secti
 
 
 ## About
+This is the repository of team sparc-me (Team #3) of the 2024 SPARC Codeathon. Information about the 2024 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2024-sparc-fair-codeathon). 
 
-## Getting started
+No work was done on this project prior to the Codeathon. 
 
+## Introduction
+The NIH Common fund program *Stimulating Peripheral Activity to Relieve Conditions* [SPARC](https://commonfund.nih.gov/sparc) seeks to understand how electrical signals control internal organ function. In doing so it explores how therapeutic devices might modulate nerve activity to treat conditions like hypertension, heart failure, and gastrointestinal disorders. To this end, data have been compiled from 3900+ subjects across 7 species from  49 different anatomical structures.  
+
+The SPARC Portal offers a user-friendly interface to access and share resources from the SPARC community. It features well-curated, high-impact data, SPARC projects, and computational simulations, all available under the “[Find Data](https://sparc.science/data?type=dataset)” section.
+## The problem
+There is no single visualisation tool o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. 
+
+This limits the FAIRness of published data to researchers by:
+   - Creating a barrier to access results of published research (limits findability & accessibility).
+   - Requiring a specific platform (e.g. Windows) in order to run (limits accessibility & interoperability).
+   - 
+   - 
+   
+## Our solution: spark-imp
+We have developed a python module called the SPARC Python Imager (sparc-imp) that enhancess the FAIRness of SPARC data by:
+- **F**indability
+  - Visualising data and metadata within SDS datasets.
+- **A**ccessibility
+  - Accessing visualisations of curated SDS datasets and their metadata (using the Pennsieve API).
+  - Allowing a universally implementable visualisation.
+- **I**nteroperability
+  - Visualisations are achieved within a portable framework that ensures reproducibility.
+- **R**eusability
+  - Comprehensive documentation and guided tutorials that can easily be adapted to new datasets or environments.
+ 
+
+Tutorials have been provided to demonstrate how sparc-imp enhances FAIRness. 
+    
+## Impact
+TODO
+
+## Setting up sparc-imp
 ### Pre-requisites 
+- [Git](https://git-scm.com/)
 - Python versions:
    - 3.9
 ###  Installing via PyPI
 
 Here is the [link](https://pypi.org/project/{PACKAGE_NAME}/) to our project on PyPI
 ```
-pip install {PACKAGE_NAME}
+pip install sparc_imp
+```
+### From source code
+#### Downloading source code
+Clone the sparc-imp repository from github, e.g.:
+```
+git clone git@github.com:SPARC-FAIR-Codeathon/TODO
 ```
 
+### Installing dependencies
+TODO
+
+## Using sparc-imp
+Included are guided tutorials covering some applications of sparc-imp:
+
+TODO
+## Reporting issues 
+To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/{REPO_NAME}/issues). TODO
+Please check existing issues before submitting a new one.
 ## Contributing
 
-See [Contributing](CONTRIBUTING.md)
+To contribute: fork this repository and submit a pull request. Before submitting a pull request, please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md). If you found this tool helpful, please add a GitHub Star to support further developments!
 
-## Reporting issues 
-To report an issue or suggest a new feature, please use the [issues page](https://github.com/GITHUB_ACCOUNT/{REPO_NAME}/issues). 
-Please check existing issues before submitting a new one.
+### Project structure
+-   '/sparc_imp/' - Parent directory of sparc-imp python module.
+-   TODO
 
-## Contributors
-
+## Cite us
+TODO
+## FAIR practices
+TODO
+## License
+sparc-imp is open source and distributed under the Apache License 2.0. See [LICENSE](https://github.com/SPARC-FAIR-Codeathon/2024-team-3/blob/main/LICENSE) for more information.
+## Team
+* [Michael Hoffman](https://github.com/Moffhan) (Writer)
+* [Yun Gu](https://github.com/greeyun) (Developer)
+* [Mishaim Malik](https://github.com/Mmal151) (Developer)
+* [Mishaim Malik](https://github.com/savindi-wijenayaka) (Developer)
+* [Matthew French](https://github.com/frenchmatthew) (Lead, SysAdmin)
 ## Acknowledgements
+- We would like to thank the  2024 SPARC Codeathon organizers for their guidance and support during this Codeathon.
+
