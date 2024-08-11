@@ -1,6 +1,6 @@
-# {YOUR-PROJECT-NAME}
+# SPARC Python Imager (sparc-imp)
 
-{SHORT PROJECT DESCRIPTION}
+A python tool to enhance the 
 
 ![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
 [![Contributors][contributors-shield]][contributors-url]
@@ -40,27 +40,61 @@
 
 
 ## About
+This is the repository of team sparc-me (Team #3) of the 2024 SPARC Codeathon. Information about the 2024 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2024-sparc-fair-codeathon). 
 
-## Getting started
+No work was done on this project prior to the Codeathon. 
 
+## Introduction
+TODO
+## The problem
+TODO
+## Our solution
+TODO
+## Impact
+TODO
+
+## Setting up sparc-imp
 ### Pre-requisites 
+- [Git](https://git-scm.com/)
 - Python versions:
    - 3.9
 ###  Installing via PyPI
 
 Here is the [link](https://pypi.org/project/{PACKAGE_NAME}/) to our project on PyPI
 ```
-pip install {PACKAGE_NAME}
+pip install sparc_imp
+```
+### From source code
+#### Downloading source code
+Clone the sparc-imp repository from github, e.g.:
+```
+git clone git@github.com:SPARC-FAIR-Codeathon/TODO
 ```
 
+### Installing dependencies
+TODO
+
+## Using sparc-imp
+Included are guided tutorials covering some applications of sparc-imp:
+
+TODO
+## Reporting issues 
+To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/{REPO_NAME}/issues). TODO
+Please check existing issues before submitting a new one.
 ## Contributing
 
-See [Contributing](CONTRIBUTING.md)
+To contribute: fork this repository and submit a pull request. Before submitting a pull request, please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md). If you found this tool helpful, please add a GitHub Star to support further developments!
 
-## Reporting issues 
-To report an issue or suggest a new feature, please use the [issues page](https://github.com/GITHUB_ACCOUNT/{REPO_NAME}/issues). 
-Please check existing issues before submitting a new one.
+### Project structure
+-   /sparc_imp/ - Parent directory
+-   TODO
+
+## Cite us
+TODO
+
+
 
 ## Contributors
-
+TODO
 ## Acknowledgements
+TODO
