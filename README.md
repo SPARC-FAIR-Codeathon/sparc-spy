@@ -60,17 +60,18 @@ This limits the FAIRness of published data to researchers by:
 ## Our solution: spark-imp
 We have developed a python module called the SPARC Python Imager (sparc-imp) that enhancess the FAIRness of SPARC data by:
 - **F**indability
-  - Visualising data and metadata within SDS datasets.
+  - Enhanced Metadata: The tool can extract and attach metadata to visualizations, making it easier to locate specific datasets and their visual representations.
+  - Searchability: By tagging visualizations with relevant keywords and descriptions, users can quickly find the visual data they need.
 - **A**ccessibility
-  - Accessing visualisations of curated SDS datasets and their metadata (using the Pennsieve API).
-  - Allowing a universally implementable visualisation.
+  - User-Friendly Interface: A well-designed tool can provide an intuitive interface for accessing and generating visualizations, lowering the barrier for users with varying levels of technical expertise.
+  - Light weight: A universally implementable visualisation tool can be run within o<sup>2</sup>S<sup>2</sup>PARC while accessing visualisations of curated SDS datasets and their metadata (using the Pennsieve API).
+  - Open Access: If the tool is open-source or freely available, it ensures that a wider audience can access and use it without restrictions.
 - **I**nteroperability
-  - Visualisations are achieved within a portable framework that ensures reproducibility.
+  - Standard Formats: The tool can support and export visualizations in standardized formats (e.g., JSON & VTK at present - can be expanded further), ensuring compatibility with other tools and platforms.
+  - APIs and Integration: By providing APIs and integration capabilities, the tool can work seamlessly with other data analysis and visualization workflows, promoting interoperability.
 - **R**eusability
-  - Comprehensive documentation and guided tutorials that can easily be adapted to new datasets or environments.
- 
-
-Tutorials have been provided to demonstrate how sparc-imp enhances FAIRness. 
+  - Documentation and Templates: The tool includes comprehensive documentation and reusable templates for common visualization types, making it easier for users to replicate and adapt visualizations for their own datasets.
+  - Version Control: Implementing version control for visualizations ensures that users can track changes and reuse previous versions as needed.
     
 ## Impact
 TODO
