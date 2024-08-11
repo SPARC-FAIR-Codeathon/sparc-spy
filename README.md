@@ -77,7 +77,8 @@ We have developed a cross-platform Python visualisation tool called the SPARC Py
 ### Improve existing capabilities of SPARC tools with direct integration
 The sparc-imp tool has been developed to integrate existing SPARC tools such as Pennsieve and sparc-me. This allows for a streamlined process within the SPARC ecosystem from downloading datasets to generating visualisations. By supporting standardised data formats this tool is highly interoperable with existing tools, improving the capabilities and experience of the SPARC platform. The capabilities of spark-imp extend further as it can query metadata and embeded within the visualisations to provide powerful analyses (e.g. scaffold volume). This tool is provided alongside comprehensive documentation to ensure a user-friendly experience, empowering researchers to integrate sparc-imp into their workflows for more consistent and reproducible visualisations. 
 
-
+### Increase visibility of the value within SPARC's public data 
+Visualizations can make complex data more engaging and easier to communicate to a broader audience, including those without a technical background. Using sparc-imp for reconstructing visualizations, researchers can more effectively analyze and interpret SPARC’s public data, making it more accessible and understandable, which in turn increases its visibility and impact. The tool can help users discover new insights and patterns within SPARC’s datasets, potentially leading to new research questions and applications and the end goal of effective treatments.
 
 ## Setting up sparc-imp
 ### Pre-requisites 
