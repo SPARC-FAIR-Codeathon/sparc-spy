@@ -49,19 +49,21 @@ The NIH Common fund program *Stimulating Peripheral Activity to Relieve Conditio
 
 The SPARC Portal offers a user-friendly interface to access and share resources from the SPARC community. It features well-curated, high-impact data, SPARC projects, and computational simulations, all available under the “[Find Data](https://sparc.science/data?type=dataset)” section.
 ## The problem
-TODO
 There is no single visualisation tool O<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. 
 
-This limits the ability of 
+This limits the FAIRness of published data to researchers by:
+   - Creating a barrier to access results of published research (limits findability & accessibility).
+   - Requiring a specific platform (e.g. Windows) in order to run (limits accessibility & interoperability).
+   - 
    - 
    
 ## Our solution: spark-imp
 We have developed a python module called the SPARC Python Imager (sparc-imp) that enhancess the FAIRness of SPARC data by:
 - **F**indability
-  - Visualising data and metadata within SDS datasets
+  - Visualising data and metadata within SDS datasets.
 - **A**ccessibility
-  - Accessing visualisations of curated SDS datasets and their metadata (using the Pennsieve API)
-  - Accessing metadata of visualisations 
+  - Accessing visualisations of curated SDS datasets and their metadata (using the Pennsieve API).
+  - Allowing a universally implementable visualisation.
 - **I**nteroperability
   - Visualisations are achieved within a portable framework that ensures reproducibility.
 - **R**eusability
@@ -106,15 +108,16 @@ Please check existing issues before submitting a new one.
 To contribute: fork this repository and submit a pull request. Before submitting a pull request, please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md). If you found this tool helpful, please add a GitHub Star to support further developments!
 
 ### Project structure
--   /sparc_imp/ - Parent directory
+-   '/sparc_imp/' - Parent directory of sparc-imp python module.
 -   TODO
 
 ## Cite us
 TODO
-
-
-
-## Contributors
+## FAIR practices
+TODO
+## License
+sparc-imp is open source and distributed under the Apache License 2.0. See [LICENSE](https://github.com/SPARC-FAIR-Codeathon/2024-team-3/blob/main/LICENSE) for more information.
+## Team
 TODO
 ## Acknowledgements
 TODO
