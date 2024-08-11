@@ -103,7 +103,7 @@ Included are guided tutorials covering some applications of sparc-imp:
 
 TODO
 ## Reporting issues 
-To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/{REPO_NAME}/issues). TODO
+To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/sparc-imp/issues). TODO
 Please check existing issues before submitting a new one.
 ## Contributing
 
