@@ -152,7 +152,20 @@ class Scaffold(object):
         """
         return
 
-    def get_mesh_ids(self):
+    def get_mesh_details(self):
         """List all meshes with their corresponding user defined names. These IDs
         could be used later on for different mesh specific tasks."""
-        return
+        print("Avaialable meshes are:")
+        for key in self.meshes.keys():
+            print(f"   {key}")
+        print()
+
+    def update_mesh_label(self, original_name: str, new_name: str):
+        """Update an auto defined mesh name.
+
+        Args:
+            original_name (str): Label to update
+            new_name (str): New name for the label
+        """
+        self.meshes[new_name] = self.meshes[original_name]
+        del self.meshes[original_name]
