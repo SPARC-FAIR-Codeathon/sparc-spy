@@ -135,7 +135,7 @@ TODO
     <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_4_new_tags.ipynb">
     Tutorial 4: 
     </a></td>
-    <td> **New tags** - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identift the data they need.</td>
+    <td> **New tags** - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identify the data they need.</td>
   </tr> 
   <tr>
     <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_5_into_the_flow.ipynb">
@@ -157,9 +157,11 @@ Please check existing issues before submitting a new one.
 To contribute: fork this repository and submit a pull request. Before submitting a pull request, please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md). If you found this tool helpful, please add a GitHub Star to support further developments!
 
 ### Project structure
--   '/sparc_imp/' - Parent directory of sparc-imp python module.
--   TODO
-
+* '/sparc_imp/' - Parent directory of sparc-imp python module.
+* '/sparc_imp/core/'
+* `/resources/`
+* '/tutorials/'
+  
 ## Cite us
 TODO
 ## FAIR practices
