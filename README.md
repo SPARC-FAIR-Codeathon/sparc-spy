@@ -143,6 +143,12 @@ TODO
     </a></td>
     <td> **Into the flow** - In this tutorial we show how sparc-imp can be used with existing tools such as sparc-flow to simplify visualisation workflows.
   </tr>
+  <tr>
+    <td><a href="https://github.com/SPARC-FAIR-Codeathon/sparc-imp//blob/maintutorials/tutorial_6_mapping_new_data.ipynb">
+    Tutorial 6: 
+    </a></td>
+    <td> **Mapping new data** - In this tutorial we show how new experimental data can be imported to a scaffold.
+  </tr>
 </tbody>
 </table>
 <p align="center">
