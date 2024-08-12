@@ -11,16 +11,16 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 [![PyPI version fury.io][pypi-shield]][pypi-url]
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
 
-[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-Codeathon/SPARC-SPy.svg?style=flat-square
-[contributors-url]: https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-Codeathon/SPARC-SPy.svg?style=flat-square
-[stars-url]: https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy//stargazers
-[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-Codeathon/SPARC-SPy/.svg?style=flat-square
-[issues-url]: https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-Codeathon/SPARC-SPy.svg
+[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-codeathon/sparc-spy.svg?style=flat-square
+[contributors-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-codeathon/sparc-spy.svg?style=flat-square
+[stars-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy//stargazers
+[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-codeathon/sparc-spy/.svg?style=flat-square
+[issues-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-codeathon/sparc-spy.svg
 [issues-closed-url]: https://GitHub.com/SPARC-FAIR-Codeathon/sparc-me/issues?q=is%3Aissue+is%3Aclosed
-[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-Codeathon/SPARC-SPy.svg?style=flat-square
-[license-url]: https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-codeathon/sparc-spy.svg?style=flat-square
+[license-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy/blob/master/LICENSE
 [code-of-conduct-shield]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
 [pypi-shield]: https://badge.fury.io/py/{sparc_spy}.svg
 [pypi-url]: https://pypi.python.org/pypi/{sparc_spy}}/
@@ -102,7 +102,7 @@ pip install sparc_spy
 #### Downloading source code
 Clone the SPARC-SPy repository from github, e.g.:
 ```
-git clone git@github.com:SPARC-FAIR-Codeathon/SPARC-SPy TODO
+git clone git@github.com:SPARC-FAIR-codeathon/sparc-spy TODO
 ```
 
 ### Installing dependencies
@@ -163,7 +163,7 @@ TODO
 <br/>
 
 ## Reporting issues 
-To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy/issues). TODO
+To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-codeathon/sparc-spy/issues). TODO
 Please check existing issues before submitting a new one.
 ## Contributing
 
