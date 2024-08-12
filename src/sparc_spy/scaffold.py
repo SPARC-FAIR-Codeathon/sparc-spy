@@ -5,7 +5,7 @@ from typing import Dict
 import numpy as np
 import pyvista as pv
 
-from sparc_imp import Mesh
+from sparc_spy import Mesh
 
 
 def populate_metadata(paths):
