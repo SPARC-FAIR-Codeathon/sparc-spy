@@ -21,6 +21,7 @@ repos:
         language: python
         types_or: [python, pyi]
         args: []
+        exclude: "scaffold.py"
       - id: ruff
         name: Ruff lint - organize imports
         description: "Run ruff for sorting and categorizing imports"
