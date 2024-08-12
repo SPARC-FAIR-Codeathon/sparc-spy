@@ -5,7 +5,7 @@ from typing import Dict
 import numpy as np
 import pyvista as pv
 
-from sparc_imp import Mesh
+from sparc_spy import Mesh
 
 
 def populate_metadata(paths):
@@ -94,14 +94,11 @@ class Scaffold(object):
     def __read_jsons(self, dir: str):
         return [os.path.join(dir, file) for file in os.listdir(dir) if file.endswith(".json")]
 
-    def build_scaffold(self, derivative_dir: str) -> pv.PolyData:
+    def build_scaffold(self, derivative_dir: str):
         """Create Scaffold from existing meshes and geometry.
 
         Args:
             derivative_dir (str): Derivative directory containing JSON files.
-
-        Returns:
-            pv.PolyData: Scaffold containing Geometry and meshes
         """
         for surface in self.metadata["Surfaces"]:
             label = surface["label"].replace(" ", "_") if surface["label"] != "" else "unnamed"
