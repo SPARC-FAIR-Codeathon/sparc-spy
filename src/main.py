@@ -9,3 +9,5 @@ scaffold.plot()
 scaffold.update_mesh_label(original_name="unnamed", new_name="whole_stomach")
 
 scaffold.plot()
+
+scaffold.export("output.stl")
