@@ -1,15 +1,21 @@
-import json
 from typing import List
-
+import json
 import pyvista as pv
 
 from sparc_imp import Mesh
 
 
 def populate_metadata(paths):
+    """Populate the metadata map for internal use.
+
+    Args:
+        dir (str): list of paths of jsons.
+
+    Returns:
+        metadata (dict): dictionary containing metadata information.
+    """
     metadata = {}
     for path in paths:
-        print()
         if path.__contains__("metadata"):
             md_cnt = json.load(open(path))  # Loading metadata content.
             if isinstance(md_cnt, list):
@@ -18,8 +24,19 @@ def populate_metadata(paths):
                             (i.keys().__contains__("GroupName") or i.keys().__contains__("RegionPath")):
                         key = i.pop("Type")
                         if isinstance(i["URL"], str):
-                            i["URL"] = [url for url in i["URL"].split(",")]
+                            urls = []
+                            len_faces = []  # List of elements per line in the faces tag. (Per URL)
+                            for url in i["URL"].split(","):
+                                urls.append(url)
+                                absolute_path = [u for u in paths if u.__contains__(url)][
+                                    0]  # Fetching the absolute path of the json from the list of paths.
+                                # Splitting the content of the file on the basis of the tag. And then further splitting it on the basis of elements.
+                                con = open(absolute_path).read().split("faces")[-1].replace("\t", "").split("\n")[
+                                    1].split(",")
+                                len_faces.append(len([c for c in con if c != '']))
 
+                            i["URL"] = urls
+                            i["face_line_len"] = len_faces
                         if metadata.keys().__contains__(key):
                             metadata[key].append(i)
                         else:
