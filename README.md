@@ -31,7 +31,10 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 
 ## Table of contents
 * [About](#about)
+* [Introduction](#introduction)
+* [The problem](#The-problem)
 * [Getting started](#getting-started)
+* [Our solution: spark-spy](#Our-solution:-spark-spy)
 * [Contributing](#contributing)
 * [Reporting issues](#reporting-issues)
 * [Contributors](#contributors)
@@ -163,7 +166,7 @@ To contribute: fork this repository and submit a pull request. Before submitting
 
 ### Project structure
 * '/sparc_spy/' - Parent directory of SPARC-SPy python module.
-* '/sparc_spy/core/'
+* '/sparc_spy/core/' - 
 * `/resources/`
 * '/tutorials/'
   
