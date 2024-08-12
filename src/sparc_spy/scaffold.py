@@ -5,7 +5,7 @@ from typing import Dict
 import numpy as np
 import pyvista as pv
 
-from sparc_spy import Mesh
+from sparc_spy import Meshes
 
 
 def populate_metadata(paths):
@@ -83,11 +83,11 @@ def populate_metadata(paths):
 
 
 class Scaffold(object):
-    meshes: Dict
+    meshes: Meshes
 
     def __init__(self, name, derivative_dir: str):
         self.name = name
-        self.meshes = {}
+        self.meshes = Meshes()
         self.metadata = populate_metadata(self.__read_jsons(derivative_dir))
         self.geometry = self.build_scaffold(derivative_dir)
 
@@ -128,19 +128,21 @@ class Scaffold(object):
         pl.add_legend()
         pl.show()
 
-    def export(self, output_filepath: str = "output.vtk"):
-        """Export the scaffold to a .vtk file
+    def export(self, output_filepath: str = "output.stl", base_path="."):
+        """Export the scaffold to a .stl file
 
         Args:
             output_filepath (str, optional): output_filepath (str): Output file
             path to save .vtk file. Defaults to "output.vtk".
-        """
+        """  
+        self.meshes.export(output_filepath, base_path)
+
 
     def get_metadata(self):
         """Show a tabular view of metadata that is important to the user"""
         return
 
-    def add_mesh(self, mesh_name: str, mesh: Mesh):
+    def add_mesh(self, mesh_name: str, mesh: pv.PolyData):
         """Modify self.meshes and add a new mesh to the list.
 
         Args:
