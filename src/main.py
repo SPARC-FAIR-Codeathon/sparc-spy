@@ -1,4 +1,4 @@
-from sparc_imp import Scaffold
+from sparc_spy import Scaffold
 
 scaffold = Scaffold("rat_gut", derivative_dir="example_data/files/derivative")
 
