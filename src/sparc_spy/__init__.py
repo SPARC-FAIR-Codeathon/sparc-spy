@@ -1,2 +1,2 @@
-from sparc_spy.mesh import Mesh
+from sparc_spy.meshes import Meshes
 from sparc_spy.scaffold import Scaffold
