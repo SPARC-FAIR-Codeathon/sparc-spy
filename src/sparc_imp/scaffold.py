@@ -29,15 +29,35 @@ def populate_metadata(paths):
                             len_faces = []  # List of elements per line in the faces tag. (Per URL)
                             for url in i["URL"].split(","):
                                 urls.append(url)
-                                absolute_path = [u for u in paths if u.__contains__(url)][
-                                    0]  # Fetching the absolute path of the json from the list of paths.
-                                # Splitting the content of the file on the basis of the tag. And then further splitting it on the basis of elements.
-                                con = open(absolute_path).read().split("faces")[-1].replace("\t", "").split("\n")[
-                                    1].split(",")
-                                len_faces.append(len([c for c in con if c != '']))
+
+                                # Adding a hard-coded check for the code to skip "splited" json files.
+                                if not url.__contains__("split"):
+                                    absolute_path = [u for u in paths if u.__contains__(url)][0]  # Fetching the absolute path of the json from the list of paths.
+                                    # Splitting the content of the file on the basis of the tag. And then further splitting it on the basis of elements.
+                                    con = open(absolute_path).read().split("faces")[-1].replace("\t", "").split("\n")[1].split(",")
+                                    len_faces.append(len([c for c in con if c != '']))
 
                             i["URL"] = urls
                             i["face_line_len"] = len_faces
+
+                        groupName, regionPath = "", ""
+                        if i.keys().__contains__("GroupName"):
+                            groupName = i.pop("GroupName")
+                        if i.keys().__contains__("RegionPath"):
+                            regionPath = i.pop("RegionPath")
+
+                        if groupName != "" and regionPath != "":
+                            label = groupName + "_" + regionPath
+
+                            if groupName.lower() == regionPath.lower():
+                                label = groupName
+                        elif groupName != "":
+                            label = groupName
+                        else:
+                            label = regionPath
+
+                        i["label"] = label
+
                         if metadata.keys().__contains__(key):
                             metadata[key].append(i)
                         else:
