@@ -115,6 +115,9 @@ switch-to-poetry: ## Switch to poetry package manager.
 init:             ## Initialize the project based on an application template.
 	@./.github/init.sh
 
+.PHONY: build
+build:
+	@python3 -m build
 
 # This project has been generated from rochacbruno/python-project-template
 # __author__ = 'rochacbruno'
