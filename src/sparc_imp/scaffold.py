@@ -1,67 +1,82 @@
-class Scaffold:
-    """
-    Scaffold  
-    """
-    def __init__(self,):
-        """
-        this is my constructor
-        """
-        pass
+import json
+from typing import List
 
-    def read_ds(self, derivative_dir):
-        """ 
-        Load the scaffold from the .json files in the derivative directory.
-        :param derivative_dir: The directory containing the .json files
-        :type derivative_dir: str
-        :return:
-        :rtype:
-        """
-        pass 
+import pyvista as pv
 
-    def plot(self, scaffold_tag=None): 
+from sparc_imp import Mesh
 
-        """   
-        Displays the meshes in the scaffold belonging to the scaffold_tag.
-        :param scaffold_tag: The tag of the meshes in the scaffold to be plotted
-        :type scaffold_tag: list of str
-        :return: 
-        :rtype: 
-        """ 
-        if scaffold_tag is None:  
-            assert self.scaffold_tag is not None, "scaffold_tag is not defined" # To-Do: The scaffold tags should be added during loading
-            scaffold_tag = self.scaffold_tag
-        pass 
 
-    def metadata(self, ): 
-        """ 
-        Displays the metadata of the scaffold. 
-        :return: 
-        :rtype: 
-        """
-        pass 
+def populate_metadata(paths):
+    metadata = {}
+    for path in paths:
+        print()
+        if path.__contains__("metadata"):
+            md_cnt = json.load(open(path))  # Loading metadata content.
+            if isinstance(md_cnt, list):
+                for i in md_cnt:
+                    if (i.keys().__contains__('Type') and i.keys().__contains__('URL')) and \
+                            (i.keys().__contains__("GroupName") or i.keys().__contains__("RegionPath")):
+                        key = i.pop("Type")
+                        if isinstance(i["URL"], str):
+                            i["URL"] = [url for url in i["URL"].split(",")]
 
-    def export(self, results_dir): 
-        """
-        Exports the scaffold to the results directory as VTK files.
-        """ 
-        pass 
+                        if metadata.keys().__contains__(key):
+                            metadata[key].append(i)
+                        else:
+                            metadata[key] = [i]
+                    else:
+                        print(f"[Error] Missing tags in metadata entry. Value: [{i}]")
 
-    def add_mesh(self, mesh, label): 
-        """
-        Adds a mesh to the scaffold.
-        :param mesh: The mesh to be added
-        :type mesh: Mesh
-        """
-        pass 
+    return metadata
 
-    def get_mesh_ids(self, scaffold_tag): 
-        """
-        Returns the mesh ids of the scaffold belonging to the scaffold_tag.
-        :param scaffold_tag: The tag of the meshes in the scaffold
-        :type scaffold_tag: list of str
-        :return: 
-        :rtype: 
-        """
-        pass  
 
-    
+class Scaffold(object):
+    meshes: List[Mesh]
+
+    def __init__(self, name):
+        self._name = name
+        # Expected value is a list of path of jsons.
+        paths = ['derivatives/*.json']
+        self.metadata = populate_metadata(paths)
+
+    def build_scaffold(self, dir: str) -> pv.PolyData:
+        """Create Scaffold from existing meshes and geometry.
+
+        Args:
+            dir (str): Root directory for derivative files where JSONs are.
+
+        Returns:
+            pv.PolyData: Scaffold containing Geometry and meshes
+        """
+        return
+
+    def plot(self):
+        """Plot the scaffold with all meshes along with checkboxes to activate
+        or deactivate meshes."""
+        return
+
+    def export(self, output_filepath: str = "output.vtk"):
+        """Export the scaffold to a .vtk file
+
+        Args:
+            output_filepath (str, optional): output_filepath (str): Output file
+            path to save .vtk file. Defaults to "output.vtk".
+        """
+
+    def get_metadata(self):
+        """Show a tabular view of metadata that is important to the user"""
+        return
+
+    def add_mesh(self, mesh_name: str, mesh: Mesh):
+        """Modify self.meshes and add a new mesh to the list.
+
+        Args:
+            mesh_name (str): User defined name for the mesh
+            mesh (Mesh): Mesh containing new experimental data
+        """
+        return
+
+    def get_mesh_ids(self):
+        """List all meshes with their corresponding user defined names. These IDs
+        could be used later on for different mesh specific tasks."""
+        return
