@@ -106,7 +106,9 @@ git clone git@github.com:SPARC-FAIR-codeathon/sparc-spy
 ```
 
 ### Installing dependencies
-TODO
+```
+pip install requirements.txt
+```
 
 ## Using SPARC-SPy
 Included are guided tutorials covering some applications of SPARC-SPy:
