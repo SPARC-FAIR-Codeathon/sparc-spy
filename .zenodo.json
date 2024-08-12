@@ -1,0 +1,33 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0003-1876-7042",
+            "affiliation": "Auckland Bioengineering Institute, University of Auckland",
+            "name": "Hoffman, Michael"
+        },
+        {
+            "orcid": "0000-0002-5929-9794",
+            "affiliation": "Auckland Bioengineering Institute, University of Auckland",
+            "name": "Wijenayaka, Savindi"
+        },
+        {
+            "orcid": "0000-0002-4917-7144",
+            "affiliation": "Auckland Bioengineering Institute, University of Auckland",
+            "name": "Malik, Mishaim"
+        },
+        {
+            "orcid": "0000-0003-0175-3488",
+            "affiliation": "Auckland Bioengineering Institute, University of Auckland",
+            "name": "French, Matthew"
+        },
+        {
+            "orcid": "0000-0003-4758-769X",
+            "affiliation": "Auckland Bioengineering Institute, University of Auckland",
+            "name": "Gu, Yun"
+        }
+    ],
+
+    "license": "Apache-2.0",
+
+    "title": "SPARC Python Imager (SPARC-SPy)"
+}
