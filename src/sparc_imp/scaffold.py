@@ -1,3 +1,4 @@
+import json
 from typing import List
 
 import pyvista as pv
@@ -5,11 +6,38 @@ import pyvista as pv
 from sparc_imp import Mesh
 
 
+def populate_metadata(paths):
+    metadata = {}
+    for path in paths:
+        print()
+        if path.__contains__("metadata"):
+            md_cnt = json.load(open(path))  # Loading metadata content.
+            if isinstance(md_cnt, list):
+                for i in md_cnt:
+                    if (i.keys().__contains__('Type') and i.keys().__contains__('URL')) and \
+                            (i.keys().__contains__("GroupName") or i.keys().__contains__("RegionPath")):
+                        key = i.pop("Type")
+                        if isinstance(i["URL"], str):
+                            i["URL"] = [url for url in i["URL"].split(",")]
+
+                        if metadata.keys().__contains__(key):
+                            metadata[key].append(i)
+                        else:
+                            metadata[key] = [i]
+                    else:
+                        print(f"[Error] Missing tags in metadata entry. Value: [{i}]")
+
+    return metadata
+
+
 class Scaffold(object):
     meshes: List[Mesh]
 
     def __init__(self, name):
         self._name = name
+        # Expected value is a list of path of jsons.
+        paths = ['derivatives/*.json']
+        self.metadata = populate_metadata(paths)
 
     def build_scaffold(self, dir: str) -> pv.PolyData:
         """Create Scaffold from existing meshes and geometry.
