@@ -48,7 +48,8 @@ watch:            ## Run tests on every change.
 	ls **/**.py | entr $(ENV_PREFIX)pytest -s -vvv -l --tb=long --maxfail=1 tests/
 
 .PHONY: clean
-clean:            ## Clean unused files.
+clean:
+	@echo "* Cleaning unused files..."
 	@find ./ -name '*.pyc' -exec rm -f {} \;
 	@find ./ -name '__pycache__' -exec rm -rf {} \;
 	@find ./ -name 'Thumbs.db' -exec rm -f {} \;
@@ -116,7 +117,7 @@ init:             ## Initialize the project based on an application template.
 	@./.github/init.sh
 
 .PHONY: build
-build:
+build: clean
 	@python3 -m build
 
 # This project has been generated from rochacbruno/python-project-template
