@@ -1,5 +1,5 @@
 include LICENSE
 include HISTORY.md
 include Containerfile
-graft tests
-graft project_name
+include requirements.txt
+graft src/sparc_spy
