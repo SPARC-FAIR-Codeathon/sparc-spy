@@ -1,4 +1,4 @@
-# SPARC Python Imager (SPARC-SPy)
+# SPARC Scaffolding in Python (SPARC-SPy)
 A python tool to enhance the accessibility of SPARC dataset visualisations and their analyses in accordance with FAIR principles. 
 
 ![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
@@ -11,16 +11,16 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 [![PyPI version fury.io][pypi-shield]][pypi-url]
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
 
-[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-Codeathon/SPARC-SPy.svg?style=flat-square
-[contributors-url]: https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-Codeathon/SPARC-SPy.svg?style=flat-square
-[stars-url]: https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy//stargazers
-[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-Codeathon/SPARC-SPy/.svg?style=flat-square
-[issues-url]: https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-Codeathon/SPARC-SPy.svg
+[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-codeathon/sparc-spy.svg?style=flat-square
+[contributors-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-codeathon/sparc-spy.svg?style=flat-square
+[stars-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy//stargazers
+[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-codeathon/sparc-spy/.svg?style=flat-square
+[issues-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-codeathon/sparc-spy.svg
 [issues-closed-url]: https://GitHub.com/SPARC-FAIR-Codeathon/sparc-me/issues?q=is%3Aissue+is%3Aclosed
-[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-Codeathon/SPARC-SPy.svg?style=flat-square
-[license-url]: https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-codeathon/sparc-spy.svg?style=flat-square
+[license-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy/blob/master/LICENSE
 [code-of-conduct-shield]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
 [pypi-shield]: https://badge.fury.io/py/{sparc_spy}.svg
 [pypi-url]: https://pypi.python.org/pypi/{sparc_spy}}/
@@ -65,7 +65,7 @@ In the current landscape of data science and research, visualizing data is cruci
 - Without a standardized approach to creating and sharing visualizations, researchers may struggle to replicate or adapt visualizations for different datasets or research contexts.
 
 ## Our solution - (SPARC-SPy)
-We have developed a cross-platform Python visualisation tool called the SPARC Python Imager (SPARC-SPy) to run within o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. This Python module enhancess the **FAIR**ness of SPARC data by:
+We have developed a cross-platform Python visualisation tool called the SPARC Scaffolding in Python (SPARC-SPy) to run within o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. This Python module enhancess the **FAIR**ness of SPARC data by:
 - **F**indability
   - Enhanced Metadata: The tool can extract and attach metadata to visualizations, making it easier to locate specific datasets and their visual representations.
   - Searchability: By tagging visualizations with relevant keywords and descriptions, users can quickly find the visual data they need.
@@ -94,7 +94,7 @@ Visualizations can make complex data more engaging and easier to communicate to 
    - 3.9
 ###  Installing via PyPI
 
-Here is the [link](https://pypi.org/project/{PACKAGE_NAME}/) to our project on PyPI TODO
+Here is the [link](https://pypi.org/project/sparc_spy/) to our project on PyPI 
 ```
 pip install sparc_spy
 ```
@@ -102,16 +102,17 @@ pip install sparc_spy
 #### Downloading source code
 Clone the SPARC-SPy repository from github, e.g.:
 ```
-git clone git@github.com:SPARC-FAIR-Codeathon/SPARC-SPy TODO
+git clone git@github.com:SPARC-FAIR-codeathon/sparc-spy 
 ```
 
 ### Installing dependencies
-TODO
+```
+pip install requirements.txt
+```
 
 ## Using SPARC-SPy
 Included are guided tutorials covering some applications of SPARC-SPy:
 
-TODO
 <table>
 <thead>
   <tr>
@@ -124,37 +125,37 @@ TODO
     <td><a href="tutorials/tutorial_1_getting_started.ipynb">
     Tutorial 1: 
     </a></td>
-    <td> **Getting started** - In this tutorial we use SPARC-SPy to import a json scaffold file from a public dataset and visualise it within a jupyter notebook running on o<sup>2</sup>S<sup>2</sup>PARC.</td>
+    <td> <b>Getting started</b> - In this tutorial we use SPARC-SPy to import a json scaffold file from a public dataset and visualise it within a jupyter notebook running on o<sup>2</sup>S<sup>2</sup>PARC.</td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_2_finding_scaffolds.ipynb">
     Tutorial 2: 
     </a></td>
-    <td> **Finding scaffolds** - In this tutorial we show how SPARC-SPy can be used to identify scaffolds within a given sparc dataset.</td>
+    <td> <b>Finding scaffolds</b> - In this tutorial we show how SPARC-SPy can be used to identify scaffolds within a given sparc dataset.</td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_3_generating_analytics.ipynb">
     Tutorial 3: 
     </a></td>
-    <td> **Generating analytics** - In this tutorial we show how SPARC-SPy can be use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
+    <td> <b>Generating analytics</b> - In this tutorial we show how SPARC-SPy can be use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_4_new_tags.ipynb">
     Tutorial 4: 
     </a></td>
-    <td> **New tags** - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identify the data they need.</td>
+    <td> <b>New tags</b> - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identify the data they need.</td>
   </tr> 
   <tr>
     <td><a href="tutorials/tutorial_5_into_the_flow.ipynb">
     Tutorial 5: 
     </a></td>
-    <td> **Into the flow** - In this tutorial we show how SPARC-SPy can be used with existing tools such as sparc-flow to simplify visualisation workflows.
+    <td> <b>Into the flow</b> - In this tutorial we show how SPARC-SPy can be used with existing tools such as sparc-flow to simplify visualisation workflows.
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_6_mapping_new_data.ipynb">
     Tutorial 6: 
     </a></td>
-    <td> **Mapping new data** - In this tutorial we show how new experimental data can be imported to a scaffold.
+    <td> <b>Mapping new data</b> - In this tutorial we show how new experimental data can be imported to a scaffold.
   </tr>
 </tbody>
 </table>
@@ -163,26 +164,24 @@ TODO
 <br/>
 
 ## Reporting issues 
-To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-Codeathon/SPARC-SPy/issues). TODO
+To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-codeathon/sparc-spy/issues). 
 Please check existing issues before submitting a new one.
 ## Contributing
 
 To contribute: fork this repository and submit a pull request. Before submitting a pull request, please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md). If you found this tool helpful, please add a GitHub Star to support further developments!
 
 ### Project structure
-* '/sparc_spy/' - Parent directory of SPARC-SPy python module.
-* '/sparc_spy/core/' - 
-* `/resources/`
-* '/tutorials/'
+* `/src/` - Directory of SPARC-SPy python module.
+* `/tutorials/` - Directory of tutorials showcasing SPARC-SPy python module in action.
   
 ## Cite us
 If you use sparc-flow to make new discoveries or use the source code, please cite us as follows:
 ```
 Michael Hoffman, Yun Gu, Mishaim Malik, Savindi Wijenayaka, Matthew French (2024). SPARC-SPy: v1.0.0 - A python tool to enhance the accessibility of SPARC dataset visualisations and their analyses in accordance with FAIR principles.
-Zenodo. https://doi.org/XXXX/zenodo.XXXX. TODO
+Zenodo. https://doi.org/XXXX/zenodo.XXXX. 
 ```
 ## FAIR practices
-TODO
+We have assessed the FAIRness of our sparc-flow tool against the FAIR Principles established for research software. The details are available in the following [SPARC-SPy-Fairness](/docs/SPARC-SPy-FAIRness.docx)
 ## License
 SPARC-SPy is open source and distributed under the Apache License 2.0. See [LICENSE](https://github.com/SPARC-FAIR-Codeathon/2024-team-3/blob/main/LICENSE) for more information.
 ## Team
