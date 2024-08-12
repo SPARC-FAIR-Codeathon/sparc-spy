@@ -33,7 +33,7 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 * [About](#about)
 * [Introduction](#introduction)
 * [The problem](#the-problem)
-* [Our solution - (spark-spy)](#our-solution---(SPARC-SPy))
+* [Our solution - (SPARC-SPy)](#our-solution---(SPARC-SPy))
 * [Impact](#impact)
 * [Contributing](#contributing)
 * [Setting up SPARC-SPy](#setting-up-SPARC-SPy)
