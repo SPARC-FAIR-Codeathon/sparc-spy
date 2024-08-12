@@ -162,7 +162,7 @@ Included are guided tutorials covering some applications of SPARC-SPy:
 <br/>
 
 ## Reporting issues 
-To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-codeathon/sparc-spy/issues). TODO
+To report an issue or suggest a new feature, please use the [issues page](https://github.com/SPARC-FAIR-codeathon/sparc-spy/issues). 
 Please check existing issues before submitting a new one.
 ## Contributing
 
@@ -176,7 +176,7 @@ To contribute: fork this repository and submit a pull request. Before submitting
 If you use sparc-flow to make new discoveries or use the source code, please cite us as follows:
 ```
 Michael Hoffman, Yun Gu, Mishaim Malik, Savindi Wijenayaka, Matthew French (2024). SPARC-SPy: v1.0.0 - A python tool to enhance the accessibility of SPARC dataset visualisations and their analyses in accordance with FAIR principles.
-Zenodo. https://doi.org/XXXX/zenodo.XXXX. TODO
+Zenodo. https://doi.org/XXXX/zenodo.XXXX. 
 ```
 ## FAIR practices
 We have assessed the FAIRness of our sparc-flow tool against the FAIR Principles established for research software. The details are available in the following [SPARC-SPy-Fairness](/docs/SPARC-SPy-FAIRness.docx)
