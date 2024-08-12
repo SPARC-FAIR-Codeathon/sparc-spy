@@ -21,7 +21,8 @@ def populate_metadata(paths):
             if isinstance(md_cnt, list):
                 for i in md_cnt:
                     if (i.keys().__contains__('Type') and i.keys().__contains__('URL')) and \
-                            (i.keys().__contains__("GroupName") or i.keys().__contains__("RegionPath")):
+                            (i.keys().__contains__("GroupName") or i.keys().__contains__("RegionPath"))\
+                            and i["Type"] != "View":
                         key = i.pop("Type")
                         if isinstance(i["URL"], str):
                             urls = []
