@@ -30,15 +30,14 @@ def read_requirements(path):
     ]
 
 setup(
-    name="package_name",
-    version=read("src/package_name", "VERSION"),
-    description="project_description",
-    url="https://github.com/author_name/project_urlname/",
+    name="sparc_spy",
+    version=read("src/sparc_spy", "VERSION"),
+    description="A python tool to enhance the accessibility of SPARC scaffold visualisations and their analyses in accordance with FAIR principles.",
+    url="https://github.com/SPARC-FAIR-Codeathon/sparc-spy",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    author="author_name",
+    author="SPARC SPy Team",
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
-    install_requires=read_requirements("requirements.txt"),
-    extras_require={"test": read_requirements("requirements-dev.txt")}
+    install_requires=read_requirements("requirements.txt")
 )
