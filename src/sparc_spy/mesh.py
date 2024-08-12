@@ -5,13 +5,19 @@ from io import StringIO
 
 class Meshes(object):
     def __init__(self) -> None:
-        meshes = pv.MultiBlock()  
+        self.meshes = pv.MultiBlock()  
 
     def add_mesh(self, label: str, mesh: pv.PolyData): 
         self.meshes.append(label, mesh) 
 
     def export(self, output_filepath: str = "output.stl", base_path='.'):  
-        save_multiblock_stl(self.meshes, output_filepath, base_path)
+        save_multiblock_stl(self.meshes, output_filepath, base_path) 
+
+    def items(self):
+        items = []
+        for key in self.meshes.keys():
+            items.append((key, self.meshes[key]))
+        return items
     
 
 def save_multiblock_stl(multiblock, filename, base_path='.'):
