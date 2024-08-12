@@ -32,12 +32,17 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 ## Table of contents
 * [About](#about)
 * [Introduction](#introduction)
-* [The problem](#The-problem)
-* [Getting started](#getting-started)
-* [Our solution: spark-spy](#Our-solution:-spark-spy)
+* [The problem](#the-problem)
+* [Our solution: spark-spy](#oOur-solution:-spark-spy)
+* [Impact](#impact)
 * [Contributing](#contributing)
+* [Setting up SPARC-SPy](#setting-up-SPARC-SPy)
 * [Reporting issues](#reporting-issues)
-* [Contributors](#contributors)
+* [Contributing](#contributing)
+* [Cite us](#cite-us)
+* [FAIR practices](#fair-practices)
+* [License](#license)
+* [Team](#team)
 * [Acknowledgements](#acknowledgements)
 
 
