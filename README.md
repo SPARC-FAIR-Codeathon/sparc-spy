@@ -94,7 +94,7 @@ Visualizations can make complex data more engaging and easier to communicate to 
    - 3.9
 ###  Installing via PyPI
 
-Here is the [link](https://pypi.org/project/{PACKAGE_NAME}/) to our project on PyPI TODO
+Here is the [link](https://pypi.org/project/sparc_spy/) to our project on PyPI 
 ```
 pip install sparc_spy
 ```
@@ -102,7 +102,7 @@ pip install sparc_spy
 #### Downloading source code
 Clone the SPARC-SPy repository from github, e.g.:
 ```
-git clone git@github.com:SPARC-FAIR-codeathon/sparc-spy TODO
+git clone git@github.com:SPARC-FAIR-codeathon/sparc-spy 
 ```
 
 ### Installing dependencies
@@ -111,7 +111,6 @@ TODO
 ## Using SPARC-SPy
 Included are guided tutorials covering some applications of SPARC-SPy:
 
-TODO
 <table>
 <thead>
   <tr>
@@ -170,10 +169,8 @@ Please check existing issues before submitting a new one.
 To contribute: fork this repository and submit a pull request. Before submitting a pull request, please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md). If you found this tool helpful, please add a GitHub Star to support further developments!
 
 ### Project structure
-* '/sparc_spy/' - Parent directory of SPARC-SPy python module.
-* '/sparc_spy/core/' - 
-* `/resources/`
-* '/tutorials/'
+* `/src/` - Directory of SPARC-SPy python module.
+* `/tutorials/` - Directory of tutorials showcasing SPARC-SPy python module in action.
   
 ## Cite us
 If you use sparc-flow to make new discoveries or use the source code, please cite us as follows:
@@ -182,7 +179,7 @@ Michael Hoffman, Yun Gu, Mishaim Malik, Savindi Wijenayaka, Matthew French (2024
 Zenodo. https://doi.org/XXXX/zenodo.XXXX. TODO
 ```
 ## FAIR practices
-TODO
+We have assessed the FAIRness of our sparc-flow tool against the FAIR Principles established for research software. The details are available in the following [SPARC-SPy Fairness](/docs/SPARC-SPy_FAIRness.docx)
 ## License
 SPARC-SPy is open source and distributed under the Apache License 2.0. See [LICENSE](https://github.com/SPARC-FAIR-Codeathon/2024-team-3/blob/main/LICENSE) for more information.
 ## Team
