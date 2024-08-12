@@ -33,7 +33,7 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 * [About](#about)
 * [Introduction](#introduction)
 * [The problem](#the-problem)
-* [Our solution: spark-spy](#our-solution:-spark-spy)
+* [Our solution - (spark-spy)](#our-solution---(SPARC-SPy))
 * [Impact](#impact)
 * [Contributing](#contributing)
 * [Setting up SPARC-SPy](#setting-up-SPARC-SPy)
@@ -64,7 +64,7 @@ In the current landscape of data science and research, visualizing data is cruci
 ### Challenges in Reusability:
 - Without a standardized approach to creating and sharing visualizations, researchers may struggle to replicate or adapt visualizations for different datasets or research contexts.
 
-## Our solution: spark-spy
+## Our solution - (SPARC-SPy)
 We have developed a cross-platform Python visualisation tool called the SPARC Python Imager (SPARC-SPy) to run within o<sup>2</sup>S<sup>2</sup>PARC that can produce VTK visualisations from data scaffolds. This Python module enhancess the **FAIR**ness of SPARC data by:
 - **F**indability
   - Enhanced Metadata: The tool can extract and attach metadata to visualizations, making it easier to locate specific datasets and their visual representations.
