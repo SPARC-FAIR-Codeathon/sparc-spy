@@ -179,7 +179,7 @@ Michael Hoffman, Yun Gu, Mishaim Malik, Savindi Wijenayaka, Matthew French (2024
 Zenodo. https://doi.org/XXXX/zenodo.XXXX. TODO
 ```
 ## FAIR practices
-We have assessed the FAIRness of our sparc-flow tool against the FAIR Principles established for research software. The details are available in the following [SPARC-SPy Fairness](/docs/SPARC-SPy_FAIRness.docx)
+We have assessed the FAIRness of our sparc-flow tool against the FAIR Principles established for research software. The details are available in the following [SPARC-SPy-Fairness](/docs/SPARC-SPy-FAIRness.docx)
 ## License
 SPARC-SPy is open source and distributed under the Apache License 2.0. See [LICENSE](https://github.com/SPARC-FAIR-Codeathon/2024-team-3/blob/main/LICENSE) for more information.
 ## Team
