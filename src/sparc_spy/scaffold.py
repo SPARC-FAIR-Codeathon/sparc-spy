@@ -140,12 +140,12 @@ class Scaffold(object):
         for label, mesh in self.meshes.items():   
             actor = p.add_mesh(mesh, label=label)
             actors[id(mesh)] = actor
-            p.add_text(label, position=(35, (9-2*i)*10), font_size=8)
+            p.add_text(label, position=(1250, (9-4*i)*10+600), font_size=12)
             p.add_checkbox_button_widget(
                 callback=lambda state, actor=actor: toggle_visibility(actor, state),
                 value=True,  
-                position=(10, (9-2*i)*10),  
-                size=20,  
+                position=(1210, (9-4*i)*10+600),  
+                size=30,  
                 color_on=colors[i], 
                 color_off='grey', 
                 border_size=2,
@@ -234,9 +234,9 @@ class Scaffold(object):
                 slider_width=0.02,
                 tube_width=0.02,
             )
-        p.enable_point_picking(callback=on_click, show_message=False, use_mesh=True)
+        p.enable_point_picking(callback=on_click, pickable=True, show_message=False, use_mesh=True)
         p.show_axes()
-        p.add_legend()
+        # p.add_legend()
         p.show()
 
     def export(self, output_filepath: str = "output.vtk"):
