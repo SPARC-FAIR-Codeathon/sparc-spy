@@ -176,7 +176,11 @@ To contribute: fork this repository and submit a pull request. Before submitting
 * '/tutorials/'
   
 ## Cite us
-TODO
+If you use sparc-flow to make new discoveries or use the source code, please cite us as follows:
+```
+Michael Hoffman, Yun Gu, Mishaim Malik, Savindi Wijenayaka, Matthew French (2024). SPARC-SPy: v1.0.0 - A python tool to enhance the accessibility of SPARC dataset visualisations and their analyses in accordance with FAIR principles.
+Zenodo. https://doi.org/XXXX/zenodo.XXXX. TODO
+```
 ## FAIR practices
 TODO
 ## License
@@ -185,8 +189,8 @@ SPARC-SPy is open source and distributed under the Apache License 2.0. See [LICE
 * [Michael Hoffman](https://github.com/Moffhan) (Writer)
 * [Yun Gu](https://github.com/greeyun) (Developer)
 * [Mishaim Malik](https://github.com/Mmal151) (Developer)
-* [Mishaim Malik](https://github.com/savindi-wijenayaka) (Developer)
-* [Matthew French](https://github.com/frenchmatthew) (Lead, SysAdmin)
+* [Savindi Wijenayaka](https://github.com/savindi-wijenayaka) (SysAdmin, Developer)
+* [Matthew French](https://github.com/frenchmatthew) (Lead, Developer)
 ## Acknowledgements
 - We would like to thank the  2024 SPARC Codeathon organizers for their guidance and support during this Codeathon.
 
