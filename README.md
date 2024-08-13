@@ -129,37 +129,37 @@ Included are guided tutorials covering some applications of SPARC-SPy:
     <td><a href="tutorials/tutorial_1_getting_started.ipynb">
     Tutorial 1: 
     </a></td>
-    <td> <b>Getting started</b> - In this tutorial we use SPARC-SPy to import a json scaffold file from a public dataset and visualise it within a jupyter notebook running on o<sup>2</sup>S<sup>2</sup>PARC.</td>
+    <td> <b>Getting started</b> - In this tutorial, we use SPARC-SPy to import a JSON scaffold file from a dataset and visualise it within a Jupyter notebook running on o<sup>2</sup>S<sup>2</sup>PARC.</td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_2_finding_scaffolds.ipynb">
     Tutorial 2: 
     </a></td>
-    <td> <b>Finding scaffolds</b> - In this tutorial we show how SPARC-SPy can be used to identify scaffolds within a given sparc dataset.</td>
+    <td> <b>Finding scaffolds</b> - In this tutorial, we show how SPARC-SPy can be used to identify datasets containing scaffolds using Pennsieve API. </td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_3_generating_analytics.ipynb">
     Tutorial 3: 
     </a></td>
-    <td> <b>Generating analytics</b> - In this tutorial we show how SPARC-SPy can be use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
+    <td> <b>Generating analytics</b> - In this tutorial, we show how SPARC-SPy can use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_4_new_tags.ipynb">
     Tutorial 4: 
     </a></td>
-    <td> <b>New tags</b> - In this tutorial we show how we can tag visualisations with key descriptors to enable users to quickly identify the data they need.</td>
+    <td> <b>New tags</b> - In this tutorial, we show how we can tag visualisations with key descriptors to enable users to quickly identify the data they need.</td>
   </tr> 
   <tr>
     <td><a href="tutorials/tutorial_5_into_the_flow.ipynb">
     Tutorial 5: 
     </a></td>
-    <td> <b>Into the flow</b> - In this tutorial we show how SPARC-SPy can be used with existing tools such as sparc-flow to simplify visualisation workflows.
+    <td> <b>Into the flow</b> - In this tutorial, we show how SPARC-SPy can be used with existing tools such as sparc-flow to simplify visualisation workflows.
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_6_mapping_new_data.ipynb">
     Tutorial 6: 
     </a></td>
-    <td> <b>Mapping new data</b> - In this tutorial we show how new experimental data can be imported to a scaffold.
+    <td> <b>Mapping new data</b> - In this tutorial, we show how new experimental data can be imported into a scaffold.
   </tr>
 </tbody>
 </table>
