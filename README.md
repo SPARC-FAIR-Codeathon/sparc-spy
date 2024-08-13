@@ -141,7 +141,7 @@ Included are guided tutorials covering some applications of SPARC-SPy:
     <td><a href="tutorials/tutorial_3_generating_analytics.ipynb">
     Tutorial 3: 
     </a></td>
-    <td> <b>Generating analytics</b> - In this tutorial, we show how SPARC-SPy can use scaffolds and metadata to generate powerful analytics (such as volume, ?average temperature/direction?).</td>
+    <td> <b>Generating analytics</b> - In this tutorial, we show how SPARC-SPy can use scaffolds and metadata to generate powerful analytics (such as volume, average temperature/direction?).</td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_4_new_tags.ipynb">
