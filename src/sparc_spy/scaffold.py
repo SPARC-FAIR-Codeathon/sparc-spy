@@ -121,12 +121,123 @@ class Scaffold(object):
                 self.meshes[label] = mesh 
 
     def plot(self):
+        """Plot the scaffold with all meshes along with checkboxes to activate
+        or deactivate meshes."""
         pv.global_theme.color_cycler = ["#DA627D", "#33658A", "#86BBD8", "#06969A", "#9A348E"]
-        pl = pv.Plotter()
-        for label, mesh in self.meshes.items():
-            pl.add_mesh(mesh, label=label)
-        pl.add_legend()
-        pl.show()
+        colors = ["#DA627D", "#33658A", "#86BBD8", "#06969A", "#9A348E"]
+
+        p = pv.Plotter(window_size=[1200, 1000])
+        # open or close the visibility of mesh
+        def toggle_visibility(actor, state):
+            if state:
+                actor.VisibilityOn()
+            else:
+                actor.VisibilityOff()
+            p.render()
+
+        actors = {}
+        i = 0
+        for label, mesh in self.meshes.items():   
+            actor = p.add_mesh(mesh, label=label)
+            actors[id(mesh)] = actor
+            p.add_text(label, position=(35, (9-2*i)*10), font_size=8)
+            p.add_checkbox_button_widget(
+                callback=lambda state, actor=actor: toggle_visibility(actor, state),
+                value=True,  
+                position=(10, (9-2*i)*10),  
+                size=20,  
+                color_on=colors[i], 
+                color_off='grey', 
+                border_size=2,
+                
+            )
+            i += 1
+        # click to select mesh
+        def on_click(mesh, point):
+            print(f"Clicked on mesh: {mesh}")
+            print(f"Clicked point: {point}")
+
+            p.clear_slider_widgets()
+            actor = actors[id(mesh)]
+            def update_x(value):
+                mesh.points[:, 0] += value - mesh.center[0]
+                p.update()
+
+            def update_y(value):
+                mesh.points[:, 1] += value - mesh.center[1]
+                p.update()
+
+            def update_z(value):
+                mesh.points[:, 2] += value - mesh.center[2]
+                p.update()
+            
+            def update_scale(value):
+                mesh.points *= value
+                p.update()
+
+            def set_opacity(value):
+                actor.GetProperty().SetOpacity(value)
+                p.render()
+
+            # add sliders
+            p.add_slider_widget(
+                update_x, [0, 1], 
+                value=mesh.center[0], 
+                title='X Position', 
+                style='modern',
+                pointa=(0.1, 0.9), 
+                pointb=(0.3, 0.9),
+                slider_width=0.02,
+                tube_width=0.02,
+            )
+            p.add_slider_widget(
+                update_y, [0, 1], 
+                value=mesh.center[1], 
+                title='Y Position', 
+                style='modern',
+                pointa=(0.1, 0.8), 
+                pointb=(0.3, 0.8),
+                slider_width=0.02,
+                tube_width=0.02,
+            )
+            p.add_slider_widget(
+                update_z, [0, 1], 
+                value=mesh.center[2], 
+                title='Z Position', 
+                style='modern',
+                pointa=(0.1, 0.7), 
+                pointb=(0.3, 0.7),
+                slider_width=0.02,
+                tube_width=0.02,
+            )
+
+            p.add_slider_widget(
+                update_scale, 
+                rng=[0.1, 2], 
+                value=1, 
+                title='Scale', 
+                style='modern',
+                pointa=(0.1, 0.6),
+                pointb=(0.3, 0.6),
+                slider_width=0.02,
+                tube_width=0.02,
+            )
+
+            p.add_slider_widget(
+                set_opacity,
+                rng=[0, 1], 
+                value=1, 
+                title='Opacity', 
+                style='modern',
+                pointa=(0.1, 0.5),
+                pointb=(0.3, 0.5),
+                slider_width=0.02,
+                tube_width=0.02,
+            )
+        p.enable_point_picking(callback=on_click, show_message=False, use_mesh=True)
+        p.show_axes()
+        p.add_legend()
+        p.show()
 
     def export(self, output_filepath: str = "output.stl", base_path="."):
         """Export the scaffold to a .stl file

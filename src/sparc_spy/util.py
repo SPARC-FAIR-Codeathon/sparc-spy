@@ -4,11 +4,12 @@ from sparc_me import Dataset_Api
 from tabulate import tabulate
 
 
-def get_scafold_based_datasets(save_csv=False):
+def get_scafold_based_datasets(save_csv=False, html_table=True):
     """Prints a list of scaffold-based datasets available on Pensieve.
 
     Args:
         save_csv (bool): Save dataset information to a csv file.
+        html_table (bool): Returns html table rather than dataframe
 
     Return:
         df (Pandas Dataframe): Dataframe containing information regarding the scaffold-based datasets.
@@ -34,6 +35,8 @@ def get_scafold_based_datasets(save_csv=False):
     if save_csv:
         df.to_csv("Dataset_Information.csv")
 
-    print(tabulate(df, headers='keys', tablefmt='grid'))
-
-    return df
+    if html_table:
+        return tabulate(df, headers='keys', tablefmt='html')
+    else:
+        print(tabulate(df, headers='keys', tablefmt='grid'))
+        return df
