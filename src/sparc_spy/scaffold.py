@@ -77,7 +77,7 @@ def populate_metadata(paths):
                         else:
                             metadata[key] = [i]
                     else:
-                        print(f"[Error] Missing tags in metadata entry. Value: [{i}]")
+                        print(f"[Warning] Missing tags in metadata entry. Value: [{i}]")
 
     return metadata
 
