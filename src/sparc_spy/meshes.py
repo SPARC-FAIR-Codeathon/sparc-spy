@@ -5,18 +5,36 @@ from io import StringIO
  
 
 class Meshes(pv.MultiBlock): 
-    def __init__(self) -> None:
+    def __init__(self) -> None: 
+        """ 
+        This class is a subclass of pyvista.MultiBlock. 
+        It is used to store multiple meshes with labels from the scaffold.
+        """
         super().__init__()
 
-    def add_mesh(self, label: str, mesh: pv.PolyData): 
+    def add_mesh(self, label: str, mesh: pv.PolyData):  
+        """ 
+        This function adds a mesh to the MultiBlock object. 
+        Args: 
+            label (str): Label of the mesh. 
+            mesh (pv.PolyData): Mesh to be added.  
+        """
         self.append(label, mesh) 
 
-    def export(self, output_filepath: str = "output.stl", base_path='.'):  
+    def export(self, output_filepath: str = "output.stl", base_path='.'):   
+        """ 
+        This function exports the meshes in the MultiBlock object to a single STL file. 
+        Args: 
+            output_filepath (str): Output file path. 
+            base_path (str): Base path. 
+        """
         save_multiblock_stl(self, output_filepath, base_path) 
 
     def items(self): 
         '''  
-        This function should return the label and meshes (pv.PolyData) in the MultiBlock object.
+        This function should return the label and meshes (pv.PolyData) in the MultiBlock object. 
+        Returns: 
+            list: List of tuples containing label and mesh.
         ''' 
         blocks = [] 
         for name in self.keys(): 
@@ -25,7 +43,14 @@ class Meshes(pv.MultiBlock):
         return blocks
     
 
-def save_multiblock_stl(multiblock, filename, base_path='.'):
+def save_multiblock_stl(multiblock, filename, base_path='.'): 
+    """ 
+    This function saves the meshes in the MultiBlock object to a single STL file. 
+    Args: 
+        multiblock (MultiBlock): MultiBlock object containing meshes. 
+        filename (str): Output file path. 
+        base_path (str): Base path. 
+    """
 
     names = multiblock.keys()
     oname, ext = os.path.splitext(filename)
@@ -56,7 +81,13 @@ def save_multiblock_stl(multiblock, filename, base_path='.'):
 
     return
 
-def change_first_line_of_file(filename, new_first_line):
+def change_first_line_of_file(filename, new_first_line): 
+    """ 
+    This function changes the first line of a file. 
+    Args: 
+        filename (str): File name. 
+        new_first_line (str): New first line. 
+    """
 
     fr = open(filename, 'r')
     first_line = fr.readline()
