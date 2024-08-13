@@ -1,0 +1,310 @@
+{
+  "pennsieveDatasetId": 102,
+  "version": 5,
+  "name": "Generic pig heart scaffold",
+  "description": "Annotated heart scaffold for pig available for registration of segmented neural anatomical-functional mapping of cardiac neural circuits.",
+  "creator": {
+    "first_name": "Richard",
+    "last_name": "Christie",
+    "orcid": "0000-0003-4336-4640"
+  },
+  "contributors": [
+    {
+      "first_name": "Richard",
+      "last_name": "Christie",
+      "orcid": "0000-0003-4336-4640"
+    },
+    {
+      "first_name": "Mahyar",
+      "last_name": "Osanlouy",
+      "orcid": "0000-0002-4329-6062"
+    },
+    {
+      "first_name": "Peter",
+      "last_name": "Hunter",
+      "orcid": "0000-0001-9665-4145"
+    }
+  ],
+  "sourceOrganization": "SPARC",
+  "keywords": [
+    "heart",
+    "ventricles",
+    "cardiac zone",
+    "coronary",
+    "atria",
+    "pig"
+  ],
+  "datePublished": "2022-12-16",
+  "license": "Creative Commons Attribution",
+  "@id": "https://doi.org/10.26275/xcot-iplx",
+  "publisher": "The University of Pennsylvania",
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  "schemaVersion": "http://schema.org/version/3.7/",
+  "files": [
+    {
+      "name": "Provenance.json",
+      "path": "files/primary/Provenance.json",
+      "size": 6516,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:85e96c64-4ec5-42e0-a5c4-c9d71d2b9aee",
+      "s3VersionId": "2s1_qhYfmb3v3dd43n_IQ1URQUFIn8Gn"
+    },
+    {
+      "name": "animal_subject.csv",
+      "path": "metadata/records/animal_subject.csv",
+      "size": 449,
+      "fileType": "CSV",
+      "s3VersionId": "zJ0zM7VAwBZ30nn3MF3IM91CFuqvo8jh"
+    },
+    {
+      "name": "award.csv",
+      "path": "metadata/records/award.csv",
+      "size": 2398,
+      "fileType": "CSV",
+      "s3VersionId": "Uay8hTLlUzRgP4gAUwm5ww69SFJ_NcKJ"
+    },
+    {
+      "name": "banner.jpg",
+      "path": "banner.jpg",
+      "size": 22300,
+      "fileType": "JPEG",
+      "s3VersionId": "8VyCGRp6SHezJhH.Ebs14EknpXx5q5rP"
+    },
+    {
+      "name": "changelog.md",
+      "path": "changelog.md",
+      "size": 376,
+      "fileType": "Markdown",
+      "s3VersionId": "442qY0a3DcL5itvRRwob.2kPffxmLAPJ"
+    },
+    {
+      "name": "dataset_description.xlsx",
+      "path": "files/dataset_description.xlsx",
+      "size": 17581,
+      "fileType": "MSExcel",
+      "sourcePackageId": "N:package:ad4ee3e6-9f07-4195-a558-154f37f949bc",
+      "s3VersionId": "LsDB0uBE_JLp6J2sIiSi4Wgi74gparr7"
+    },
+    {
+      "name": "file.csv",
+      "path": "metadata/records/file.csv",
+      "size": 2325,
+      "fileType": "CSV",
+      "s3VersionId": "onWhUZY9uSab76aDvz4bRJX8i.hVxOcC"
+    },
+    {
+      "name": "hasContactPerson.csv",
+      "path": "metadata/relationships/hasContactPerson.csv",
+      "size": 298,
+      "fileType": "CSV",
+      "s3VersionId": "_5fEtZ1rkklfKXscC9iUUR6BXcpwXvYb"
+    },
+    {
+      "name": "hasResponsiblePrincipalInvestigator.csv",
+      "path": "metadata/relationships/hasResponsiblePrincipalInvestigator.csv",
+      "size": 355,
+      "fileType": "CSV",
+      "s3VersionId": "vpUPBfyYqqMI1XJdgvsu_HyuliWVtqTD"
+    },
+    {
+      "name": "human_subject.csv",
+      "path": "metadata/records/human_subject.csv",
+      "size": 335,
+      "fileType": "CSV",
+      "s3VersionId": "bhiJD8_JYmWK8xAKTZocoOPMsl6p0vwG"
+    },
+    {
+      "name": "manifest.json",
+      "path": "manifest.json",
+      "size": 9542,
+      "fileType": "Json"
+    },
+    {
+      "name": "manifest.xlsx",
+      "path": "files/derivative/manifest.xlsx",
+      "size": 5217,
+      "fileType": "MSExcel",
+      "sourcePackageId": "N:package:497eccdf-b33d-4cf3-8aa7-a58f889305ec",
+      "s3VersionId": "hlKUEKTcfjcRHcuF4lDB.QqAYw2NUmQK"
+    },
+    {
+      "name": "manifest.xlsx",
+      "path": "files/primary/manifest.xlsx",
+      "size": 9091,
+      "fileType": "MSExcel",
+      "sourcePackageId": "N:package:74ef43b8-591d-46f3-a591-40c751bf3a32",
+      "s3VersionId": "3uFG3aWFJGoD7BlGqNw87WKPPVemP43R"
+    },
+    {
+      "name": "pig_heart_01.json",
+      "path": "files/derivative/pig_heart_01.json",
+      "size": 611334,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:cf6e5d97-35dc-4f97-b6f0-995e28ab9dbe",
+      "s3VersionId": "I7PyjHFZ.5CDVYbJBhn2E8isAWWaXNJx"
+    },
+    {
+      "name": "pig_heart_02.json",
+      "path": "files/derivative/pig_heart_02.json",
+      "size": 626136,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:49234f26-8ede-4367-a020-8c2847b09eab",
+      "s3VersionId": "IT9wly8cfyhn0khtnmi200OIziUBnb1m"
+    },
+    {
+      "name": "pig_heart_03.json",
+      "path": "files/derivative/pig_heart_03.json",
+      "size": 411515,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:aba5fc24-ddd6-4a1f-85af-13481fba72dd",
+      "s3VersionId": "pz7cSIHcUGgAtKth59GayrKifUNUyc.h"
+    },
+    {
+      "name": "pig_heart_04.json",
+      "path": "files/derivative/pig_heart_04.json",
+      "size": 517923,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:b60b42af-b1c2-4846-8295-839133fec107",
+      "s3VersionId": "x_CnBU2yHD0JM3kofqYkQ5QuKnYZlbFc"
+    },
+    {
+      "name": "pig_heart_05.json",
+      "path": "files/derivative/pig_heart_05.json",
+      "size": 322943,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:56bfa294-0c10-43fa-8cc0-d277340b3b06",
+      "s3VersionId": "TMmbrMLuqZDssNr8veOx7PHNzT8Om7fO"
+    },
+    {
+      "name": "pig_heart_06.json",
+      "path": "files/derivative/pig_heart_06.json",
+      "size": 505820,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:ce138f41-8d42-46d2-a68f-d9d909a0d920",
+      "s3VersionId": "RV_WxbOpB57YoBT371EEZj16MFXT34b2"
+    },
+    {
+      "name": "pig_heart_07.json",
+      "path": "files/derivative/pig_heart_07.json",
+      "size": 247754,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:55a32499-361d-4f5c-84b2-80bd28aca944",
+      "s3VersionId": "7.o0Ap1ZzB_Zjr5aVs4.s_rk_qM7WVc."
+    },
+    {
+      "name": "pig_heart_08.json",
+      "path": "files/derivative/pig_heart_08.json",
+      "size": 399360,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:c05248f0-5eb9-49a7-be33-27115bc4d664",
+      "s3VersionId": "WqkHD16NbasTH5niEOT3PGZ2eEYKFE6U"
+    },
+    {
+      "name": "pig_heart_09.json",
+      "path": "files/derivative/pig_heart_09.json",
+      "size": 182127,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:a8bf5498-82d6-4b4e-a1ef-d655f7b672f3",
+      "s3VersionId": "ibesPmjkqJkVZ_lXlKZBqrLChg6Zfq54"
+    },
+    {
+      "name": "pig_heart_10.json",
+      "path": "files/derivative/pig_heart_10.json",
+      "size": 271193,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:e6fabbee-2b36-4df8-a36a-ed231b09d907",
+      "s3VersionId": "KHEHvcXV7ye5YiWa8LLasUZKxowKb3P_"
+    },
+    {
+      "name": "pig_heart_11.json",
+      "path": "files/derivative/pig_heart_11.json",
+      "size": 271697,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:81bc47e9-ac38-4fa6-a5ab-83e4190a1104",
+      "s3VersionId": "Z1B7zuHkHRsFborvDGRnwVArNircri.N"
+    },
+    {
+      "name": "pig_heart_Layout1_thumbnail.jpeg",
+      "path": "files/derivative/pig_heart_Layout1_thumbnail.jpeg",
+      "size": 59371,
+      "fileType": "JPEG",
+      "sourcePackageId": "N:package:136b5980-9965-48f3-b218-96fae96722be",
+      "s3VersionId": "f1kKetPzyeyxpMWPQwcQrc0eLAtiUs6Q"
+    },
+    {
+      "name": "pig_heart_Layout1_view.json",
+      "path": "files/derivative/pig_heart_Layout1_view.json",
+      "size": 339,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:0e79cff8-1785-4127-a7a4-9b757adb89f8",
+      "s3VersionId": "w6qJ8pgqykFfM3dqKR.NfVzl7v7qbecZ"
+    },
+    {
+      "name": "pig_heart_metadata.json",
+      "path": "files/derivative/pig_heart_metadata.json",
+      "size": 2081,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:55a32076-cb91-4285-978e-956ab3d29636",
+      "s3VersionId": "DrpmtG.kOiD9A_kl0ycndeqMeDLOwDZB"
+    },
+    {
+      "name": "protocol.csv",
+      "path": "metadata/records/protocol.csv",
+      "size": 95,
+      "fileType": "CSV",
+      "s3VersionId": "LO96xIwQqdY4M.i83XtXhmenoIDG0baZ"
+    },
+    {
+      "name": "readme.md",
+      "path": "readme.md",
+      "size": 1162,
+      "fileType": "Markdown",
+      "s3VersionId": "XnK2OVPk2enL4f.4fB29YGeAuXi57_bp"
+    },
+    {
+      "name": "researcher.csv",
+      "path": "metadata/records/researcher.csv",
+      "size": 638,
+      "fileType": "CSV",
+      "s3VersionId": "O2bt6ugdrCm89NEktiyL7tbKqWERKNxF"
+    },
+    {
+      "name": "sample.csv",
+      "path": "metadata/records/sample.csv",
+      "size": 185,
+      "fileType": "CSV",
+      "s3VersionId": "5vItbL_UeFXjYjpzwRKRTgpetjvO.o_L"
+    },
+    {
+      "name": "scaffold_context_info.json",
+      "path": "files/derivative/scaffold_context_info.json",
+      "size": 302,
+      "fileType": "Json",
+      "sourcePackageId": "N:package:d2c4f45a-98d0-4711-8307-a49ff402d212",
+      "s3VersionId": "Wla0mCKA0Npd5c6vmIZnZ5qVXWuYlrSq"
+    },
+    {
+      "name": "schema.json",
+      "path": "metadata/schema.json",
+      "size": 30618,
+      "fileType": "Json",
+      "s3VersionId": "lBwWUAEM.ZCKE465VfYqKnUOlh0zdfcB"
+    },
+    {
+      "name": "summary.csv",
+      "path": "metadata/records/summary.csv",
+      "size": 2473,
+      "fileType": "CSV",
+      "s3VersionId": "W6LkIR56i5UYmhY_K3Q4Y1HoKOupLvCg"
+    },
+    {
+      "name": "term.csv",
+      "path": "metadata/records/term.csv",
+      "size": 86,
+      "fileType": "CSV",
+      "s3VersionId": "kTHMoeYA2zNs2_NGktmwZEVDGBiA9nFo"
+    }
+  ],
+  "pennsieveSchemaVersion": "4.0"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "GroupName": "Axon",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "axon",
+    "Type": "Lines",
+    "URL": [
+      "combined_1_split_1.json",
+      "combined_1_split_2.json",
+      "combined_1_split_3.json",
+      "combined_1_split_4.json",
+      "combined_1_split_5.json",
+      "combined_1_split_6.json",
+      "combined_1_split_7.json",
+      "combined_1_split_8.json",
+      "combined_1_split_9.json",
+      "combined_1_split_10.json"
+    ]
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "vasculature",
+    "Type": "Surfaces",
+    "URL": "combined_2.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Surfaces",
+    "URL": "combined_3.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Lines",
+    "URL": "combined_4.json"
+  },
+  {
+    "GroupName": "pyloric antrum",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Surfaces",
+    "URL": "combined_5.json"
+  },
+  {
+    "GroupName": "body of stomach",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Surfaces",
+    "URL": "combined_6.json"
+  },
+  {
+    "Type": "View",
+    "URL": "combined_Layout1_view.json"
+  }
+]

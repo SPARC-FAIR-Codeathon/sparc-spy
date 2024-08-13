@@ -1,0 +1,77 @@
+Term ID,Group name
+UBERON:0035177,abdominal part of esophagus
+UBERON:0001161,body of stomach
+ILX:0793127,body-antrum junction along the greater curvature on circular-longitudinal muscle interface
+ILX:0793128,body-antrum junction along the greater curvature on luminal surface
+ILX:0793087,body-antrum junction along the greater curvature on serosa
+UBERON:0001162,cardia of stomach
+ILX:0774731,circular muscle layer of stomach
+ILX:0793088,circular-longitudinal muscle interface of body of stomach along the gastric-omentum attachment
+ILX:0793089,circular-longitudinal muscle interface of dorsal stomach
+ILX:0793091,circular-longitudinal muscle interface of esophagus along the cut margin
+ILX:0793090,circular-longitudinal muscle interface of first segment of the duodenum along the gastric-omentum attachment
+ILX:0793092,circular-longitudinal muscle interface of fundus of stomach along the greater curvature
+ILX:0793093,circular-longitudinal muscle interface of gastroduodenal junction
+ILX:0793135,circular-longitudinal muscle interface of pyloric antrum along the greater curvature
+ILX:0793136,circular-longitudinal muscle interface of pyloric antrum along the lesser curvature
+ILX:0793137,circular-longitudinal muscle interface of pyloric canal along the greater curvature
+ILX:0793138,circular-longitudinal muscle interface of pyloric canal along the lesser curvature
+ILX:0793096,circular-longitudinal muscle interface of stomach
+ILX:0793097,circular-longitudinal muscle interface of ventral stomach
+ILX:0793179,distal point of lower esophageal sphincter serosa on the greater curvature of stomach
+ILX:0793180,distal point of lower esophageal sphincter serosa on the lesser curvature of stomach
+ILX:0793086,dorsal stomach
+UBERON:0002114,duodenum
+UBERON:0007650,esophagogastric junction
+ILX:0793098,esophagogastric junction along the greater curvature on circular-longitudinal muscle interface
+ILX:0793099,esophagogastric junction along the greater curvature on luminal surface
+ILX:0793100,esophagogastric junction along the greater curvature on serosa
+ILX:0793101,esophagogastric junction along the lesser curvature on circular-longitudinal muscle interface
+ILX:0793102,esophagogastric junction along the lesser curvature on luminal surface
+ILX:0793103,esophagogastric junction along the lesser curvature on serosa
+UBERON:0001043,esophagus
+UBERON:0002469,esophagus mucosa
+UBERON:0009960,esophagus smooth muscle circular layer
+UBERON:0009961,esophagus smooth muscle longitudinal layer
+UBERON:0012270,forestomach-glandular stomach junction
+UBERON:0001160,fundus of stomach
+ILX:0793106,fundus-body junction along the greater curvature on serosa
+UBERON:0012650,gastroduodenal junction
+ILX:0793107,gastroduodenal junction along the greater curvature on circular-longitudinal muscle interface
+ILX:0793108,gastroduodenal junction along the greater curvature on luminal surface
+ILX:0793109,gastroduodenal junction along the greater curvature on serosa
+ILX:0793110,gastroduodenal junction along the lesser curvature on circular-longitudinal muscle interface
+ILX:0793111,gastroduodenal junction along the lesser curvature on luminal surface
+ILX:0793112,gastroduodenal junction along the lesser curvature on serosa
+UBERON:0001164,greater curvature of stomach
+UBERON:0001163,lesser curvature of stomach
+ILX:0793113,limiting ridge at the greater curvature on the circular-longitudinal muscle interface
+ILX:0793114,limiting ridge at the greater curvature on the luminal surface
+ILX:0793116,limiting ridge on circular-longitudinal muscle interface
+ILX:0793117,limiting ridge on luminal surface
+ILX:0793118,limiting ridge on serosa
+ILX:0772619,longitudinal muscle layer of stomach
+ILX:0793119,luminal surface of body of stomach
+ILX:0793120,luminal surface of cardia of stomach
+ILX:0793121,luminal surface of duodenum
+ILX:0793122,luminal surface of esophagus
+ILX:0793123,luminal surface of fundus of stomach
+ILX:0793124,luminal surface of pyloric antrum
+ILX:0793125,luminal surface of pyloric canal
+ILX:0793126,luminal surface of stomach
+UBERON:0001199,mucosa of stomach
+UBERON:0001165,pyloric antrum
+UBERON:0008858,pyloric canal
+ILX:0771402,serosa of body of stomach
+ILX:0776646,serosa of cardia of stomach
+UBERON:0003336,serosa of duodenum
+UBERON:0001975,serosa of esophagus
+UBERON:0012503,serosa of fundus of stomach
+ILX:0777005,serosa of pyloric antrum
+ILX:0775898,serosa of pyloric canal
+UBERON:0001201,serosa of stomach
+UBERON:0002108,small intestine
+UBERON:0000945,stomach
+UBERON:0001972,submucosa of esophagus
+UBERON:0001200,submucosa of stomach
+ILX:0793085,ventral stomach

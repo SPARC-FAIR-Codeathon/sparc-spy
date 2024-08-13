@@ -1,0 +1,914 @@
+{
+    "models": [
+        {
+            "name": "summary",
+            "displayName": "Summary",
+            "description": "",
+            "properties": [
+                {
+                    "name": "title",
+                    "displayName": "Title",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "isDescribedBy",
+                    "displayName": "Publication URL",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "description",
+                    "displayName": "Description",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "collectionTitle",
+                    "displayName": "Collection Title",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "milestoneCompletionDate",
+                    "displayName": "Milestone Completion Date",
+                    "description": "",
+                    "dataType": {
+                        "type": "Date"
+                    }
+                },
+                {
+                    "name": "curationIndex",
+                    "displayName": "Curation index",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasExperimentalModality",
+                    "displayName": "Experimental modality",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "hasNumberOfContributors",
+                    "displayName": "Number of contributors",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasNumberOfDirectories",
+                    "displayName": "Number of directories",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasNumberOfFiles",
+                    "displayName": "Number of files",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasExperimentalApproach",
+                    "displayName": "Experimental Approach",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasNumberOfSamples",
+                    "displayName": "Number of samples",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasNumberOfSubjects",
+                    "displayName": "Number of subjects",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "acknowledgements",
+                    "displayName": "Acknowledgements",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "submissionIndex",
+                    "displayName": "Submission index",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "errorIndex",
+                    "displayName": "Error index",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "label",
+                    "displayName": "Label",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasSizeInBytes",
+                    "displayName": "Size (bytes)",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "recordHash",
+                    "displayName": "MD5 hash",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasAwardNumber",
+                    "displayName": "Award number",
+                    "description": "",
+                    "dataType": {
+                        "to": "award",
+                        "file": "records/summary.csv",
+                        "type": "Model"
+                    }
+                }
+            ],
+            "file": "records/summary.csv"
+        },
+        {
+            "name": "protocol",
+            "displayName": "Protocol",
+            "description": "",
+            "properties": [
+                {
+                    "name": "label",
+                    "displayName": "Name",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "url",
+                    "displayName": "URL",
+                    "description": "",
+                    "dataType": {
+                        "type": "String",
+                        "format": "URL"
+                    }
+                },
+                {
+                    "name": "publisher",
+                    "displayName": "publisher",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "date",
+                    "displayName": "Date",
+                    "description": "",
+                    "dataType": {
+                        "type": "Date"
+                    }
+                },
+                {
+                    "name": "protocolHasNumberOfSteps",
+                    "displayName": "Number of Steps",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasNumberOfProtcurAnnotations",
+                    "displayName": "Number of Protcur Annotations",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "recordHash",
+                    "displayName": "MD5 hash",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                }
+            ],
+            "file": "records/protocol.csv"
+        },
+        {
+            "name": "award",
+            "displayName": "Award",
+            "description": "",
+            "properties": [
+                {
+                    "name": "award_id",
+                    "displayName": "Award ID",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "title",
+                    "displayName": "Title",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "description",
+                    "displayName": "Description",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "principal_investigator",
+                    "displayName": "Principal Investigator",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "recordHash",
+                    "displayName": "MD5 hash",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                }
+            ],
+            "file": "records/award.csv"
+        },
+        {
+            "name": "sample",
+            "displayName": "Sample",
+            "description": "",
+            "properties": [
+                {
+                    "name": "label",
+                    "displayName": "Label",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "id",
+                    "displayName": "id",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "description",
+                    "displayName": "Description",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasAssignedGroup",
+                    "displayName": "Group",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "extractedFrom",
+                    "displayName": "Extract Location",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "hasDigitalArtifactThatIsAboutIt",
+                    "displayName": "Digital artifact",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "localExecutionNumber",
+                    "displayName": "Execution number",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "providerNote",
+                    "displayName": "Provider note",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "recordHash",
+                    "displayName": "MD5 hash",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "wasDerivedFromSubject",
+                    "displayName": "Derived from subject",
+                    "description": "",
+                    "dataType": {
+                        "to": "human_subject",
+                        "file": "records/sample.csv",
+                        "type": "Model"
+                    }
+                }
+            ],
+            "file": "records/sample.csv"
+        },
+        {
+            "name": "animal_subject",
+            "displayName": "Animal Subject",
+            "description": "",
+            "properties": [
+                {
+                    "name": "localId",
+                    "displayName": "Subject ID",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "animalSubjectIsOfStrain",
+                    "displayName": "Animal strain",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "animalSubjectHasWeight",
+                    "displayName": "Animal weight",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasAge",
+                    "displayName": "Age",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "protocolExecutionDate",
+                    "displayName": "Protocol execution date",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "Date"
+                        }
+                    }
+                },
+                {
+                    "name": "localExecutionNumber",
+                    "displayName": "Execution number",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "hasAssignedGroup",
+                    "displayName": "Group",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "spatialLocationOfModulator",
+                    "displayName": "Spatial location of modulator",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "stimulatorUtilized",
+                    "displayName": "Stimulator utilized",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "providerNote",
+                    "displayName": "Provider note",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "hasGenotype",
+                    "displayName": "Genotype",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "involvesAnatomicalRegion",
+                    "displayName": "Anatomical region involved",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "wasAdministeredAnesthesia",
+                    "displayName": "Anesthesia administered",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "recordHash",
+                    "displayName": "MD5 hash",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasBiologicalSex",
+                    "displayName": "Biological sex",
+                    "description": "",
+                    "dataType": {
+                        "to": "term",
+                        "file": "records/animal_subject.csv",
+                        "type": "Model"
+                    }
+                },
+                {
+                    "name": "animalSubjectIsOfSpecies",
+                    "displayName": "Animal species",
+                    "description": "",
+                    "dataType": {
+                        "to": "term",
+                        "file": "records/animal_subject.csv",
+                        "type": "Model"
+                    }
+                },
+                {
+                    "name": "specimenHasIdentifier",
+                    "displayName": "Identifier",
+                    "description": "",
+                    "dataType": {
+                        "to": "term",
+                        "file": "records/animal_subject.csv",
+                        "type": "Model"
+                    }
+                },
+                {
+                    "name": "hasAgeCategory",
+                    "displayName": "Age category",
+                    "description": "",
+                    "dataType": {
+                        "to": "term",
+                        "file": "records/animal_subject.csv",
+                        "type": "Model"
+                    }
+                }
+            ],
+            "file": "records/animal_subject.csv"
+        },
+        {
+            "name": "human_subject",
+            "displayName": "Human Subject",
+            "description": "",
+            "properties": [
+                {
+                    "name": "localId",
+                    "displayName": "Subject ID",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "subjectHasWeight",
+                    "displayName": "Weight",
+                    "description": "",
+                    "dataType": {
+                        "type": "Double",
+                        "unit": "g"
+                    }
+                },
+                {
+                    "name": "subjectHasHeight",
+                    "displayName": "Height",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasAge",
+                    "displayName": "Age",
+                    "description": "",
+                    "dataType": {
+                        "type": "Double",
+                        "unit": "s"
+                    }
+                },
+                {
+                    "name": "hasAssignedGroup",
+                    "displayName": "Group",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "spatialLocationOfModulator",
+                    "displayName": "Spatial location of modulator",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "stimulatorUtilized",
+                    "displayName": "Stimulator utilized",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "providerNote",
+                    "displayName": "Provider note",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "hasGenotype",
+                    "displayName": "Genotype",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "involvesAnatomicalRegion",
+                    "displayName": "Anatomical region involved",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "wasAdministeredAnesthesia",
+                    "displayName": "Anesthesia administered",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "recordHash",
+                    "displayName": "MD5 hash",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasBiologicalSex",
+                    "displayName": "Biological sex",
+                    "description": "",
+                    "dataType": {
+                        "to": "term",
+                        "file": "records/human_subject.csv",
+                        "type": "Model"
+                    }
+                },
+                {
+                    "name": "hasAgeCategory",
+                    "displayName": "Age category",
+                    "description": "",
+                    "dataType": {
+                        "to": "term",
+                        "file": "records/human_subject.csv",
+                        "type": "Model"
+                    }
+                },
+                {
+                    "name": "specimenHasIdentifier",
+                    "displayName": "Identifier",
+                    "description": "",
+                    "dataType": {
+                        "to": "term",
+                        "file": "records/human_subject.csv",
+                        "type": "Model"
+                    }
+                }
+            ],
+            "file": "records/human_subject.csv"
+        },
+        {
+            "name": "researcher",
+            "displayName": "Researcher",
+            "description": "",
+            "properties": [
+                {
+                    "name": "lastName",
+                    "displayName": "Last name",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "firstName",
+                    "displayName": "First name",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "middleName",
+                    "displayName": "Middle name",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "hasAffiliation",
+                    "displayName": "Affiliation",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "hasRole",
+                    "displayName": "Role",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "hasORCIDId",
+                    "displayName": "ORCID iD",
+                    "description": "",
+                    "dataType": {
+                        "type": "String",
+                        "format": "URL"
+                    }
+                },
+                {
+                    "name": "recordHash",
+                    "displayName": "MD5 hash",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                }
+            ],
+            "file": "records/researcher.csv"
+        },
+        {
+            "name": "term",
+            "displayName": "Term",
+            "description": "",
+            "properties": [
+                {
+                    "name": "label",
+                    "displayName": "Label",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "curie",
+                    "displayName": "CURIE",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "definitions",
+                    "displayName": "Definition",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "abbreviations",
+                    "displayName": "Abbreviations",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "synonyms",
+                    "displayName": "Synonyms",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "acronyms",
+                    "displayName": "Acronyms",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "categories",
+                    "displayName": "Categories",
+                    "description": "",
+                    "dataType": {
+                        "type": "Array",
+                        "items": {
+                            "type": "String"
+                        }
+                    }
+                },
+                {
+                    "name": "iri",
+                    "displayName": "IRI",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                },
+                {
+                    "name": "recordHash",
+                    "displayName": "MD5 hash",
+                    "description": "",
+                    "dataType": {
+                        "type": "String"
+                    }
+                }
+            ],
+            "file": "records/term.csv"
+        },
+        {
+            "name": "file",
+            "displayName": "File",
+            "description": "A file in the dataset",
+            "properties": [
+                {
+                    "name": "path",
+                    "displayName": "Path",
+                    "description": "The path to the file from the root of the dataset",
+                    "dataType": {
+                        "type": "String"
+                    }
+                }
+            ],
+            "file": "records/file.csv"
+        }
+    ],
+    "relationships": [
+        {
+            "name": "hasContactPerson",
+            "from": "summary",
+            "to": "researcher",
+            "file": "relationships/hasContactPerson.csv"
+        },
+        {
+            "name": "hasResponsiblePrincipalInvestigator",
+            "from": "summary",
+            "to": "researcher",
+            "file": "relationships/hasResponsiblePrincipalInvestigator.csv"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+22 Sep 2022 - Heart scaffold has been updated. Provenance data in primary folder and webGL files in derivative folder are replaced by files generated with MAPClient 0.17.4 Release. Dataset description and Curator's Notes are updated with link to the latest PMR exposure which contains files necessary for scaffold reuse via PMR. Submission doc is updated with completion date.

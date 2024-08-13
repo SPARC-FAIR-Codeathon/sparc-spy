@@ -1,0 +1,247 @@
+{
+    "PySide2": {
+        "version": "5.15.2.1"
+    },
+    "altgraph": {
+        "version": "0.17.2"
+    },
+    "certifi": {
+        "version": "2022.6.15"
+    },
+    "charset-normalizer": {
+        "version": "2.1.1"
+    },
+    "dataembedder": {
+        "version": "0.1.0"
+    },
+    "distlib": {
+        "version": "0.3.6"
+    },
+    "dulwich": {
+        "version": "0.20.45"
+    },
+    "et-xmlfile": {
+        "version": "1.1.0"
+    },
+    "fieldfitter": {
+        "version": "0.2.0"
+    },
+    "filelock": {
+        "version": "3.8.0"
+    },
+    "future": {
+        "version": "0.18.2"
+    },
+    "idna": {
+        "version": "3.3"
+    },
+    "isodate": {
+        "version": "0.6.1"
+    },
+    "lxml": {
+        "version": "4.9.1"
+    },
+    "mapclient": {
+        "location": "locally-acquired",
+        "version": "0.17.4"
+    },
+    "mapclientplugins.argonsceneexporterstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.argonsceneexporterstep.git",
+        "version": "0.3.0"
+    },
+    "mapclientplugins.argonviewerstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.argonviewerstep.git",
+        "version": "0.2.3"
+    },
+    "mapclientplugins.convertcoordinatefieldstep": {
+        "location": "",
+        "version": "0.1.0"
+    },
+    "mapclientplugins.convertdatatozincstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.convertdatatozincstep",
+        "version": "0.1.2"
+    },
+    "mapclientplugins.dataembedderstep": {
+        "location": "https://github.com/ABI-Software/mapclientplugins.dataembedderstep",
+        "version": "0.1.2"
+    },
+    "mapclientplugins.dictserializerstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.dictserializerstep",
+        "version": "0.1.3"
+    },
+    "mapclientplugins.directorychooserstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.directorychooserstep",
+        "version": "0.1.3"
+    },
+    "mapclientplugins.fieldfitterstep": {
+        "location": "https://github.com/ABI-Software/mapclientplugins.fieldfitterstep",
+        "version": "0.2.1"
+    },
+    "mapclientplugins.filechooserstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.filechooserstep",
+        "version": "0.1.3"
+    },
+    "mapclientplugins.filelocationsinkstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.filelocationsinkstep",
+        "version": "0.2.1"
+    },
+    "mapclientplugins.geometryfitter": {
+        "location": "https://github.com/ABI-Software/mapclientplugins.geometryfitter",
+        "version": "0.3.1"
+    },
+    "mapclientplugins.mapclientprovenancerecordstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.mapclientprovenancerecordstep",
+        "version": "0.1.1"
+    },
+    "mapclientplugins.mbfxml2exconverterstep": {
+        "location": "https://github.com/ABI-Software/mbfxml2exconverterstep.git",
+        "version": "0.1.2"
+    },
+    "mapclientplugins.mergezincdatastep": {
+        "location": "",
+        "version": "0.1.0"
+    },
+    "mapclientplugins.multiplefilechooserstep": {
+        "location": "https://github.com/mapclient-plugins/multiplefilechooser",
+        "version": "0.1.2"
+    },
+    "mapclientplugins.muxerstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.muxerstep.git",
+        "version": "0.1.1"
+    },
+    "mapclientplugins.saveargondocumentstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.saveargondocumentstep",
+        "version": "0.1.0"
+    },
+    "mapclientplugins.scaffoldcreator": {
+        "location": "https://github.com/ABI-Software/mapclientplugins.scaffoldcreator",
+        "version": "0.5.0"
+    },
+    "mapclientplugins.sparccurationhelperstep": {
+        "location": "https://github.com/mapclient-plugins/mapclientplugins.sparccurationhelperstep",
+        "version": "0.3.2"
+    },
+    "mbfxml2ex": {
+        "version": "0.4.6"
+    },
+    "numpy": {
+        "version": "1.23.2"
+    },
+    "oauthlib": {
+        "version": "3.2.0"
+    },
+    "opencmiss.argon": {
+        "version": "0.3.4"
+    },
+    "opencmiss.exporter": {
+        "version": "0.3.4"
+    },
+    "opencmiss.importer": {
+        "version": "0.3.1"
+    },
+    "opencmiss.maths": {
+        "version": "0.1.1"
+    },
+    "opencmiss.merger": {
+        "version": "0.1.1"
+    },
+    "opencmiss.utils": {
+        "version": "0.4.1"
+    },
+    "opencmiss.zinc": {
+        "version": "3.8.1"
+    },
+    "opencmiss.zincwidgets": {
+        "version": "2.2.3"
+    },
+    "openpyxl": {
+        "version": "3.0.10"
+    },
+    "packaging": {
+        "version": "21.3"
+    },
+    "pandas": {
+        "version": "1.5.0rc0"
+    },
+    "pefile": {
+        "version": "2022.5.30"
+    },
+    "pip": {
+        "version": "22.2.2"
+    },
+    "platformdirs": {
+        "version": "2.5.2"
+    },
+    "pmr2.client": {
+        "version": "0.2"
+    },
+    "pmr2.wfctrl": {
+        "version": "0.2"
+    },
+    "psutil": {
+        "version": "5.9.1"
+    },
+    "pyinstaller": {
+        "version": "5.3"
+    },
+    "pyinstaller-hooks-contrib": {
+        "version": "2022.9"
+    },
+    "pyparsing": {
+        "version": "3.0.9"
+    },
+    "python-dateutil": {
+        "version": "2.8.2"
+    },
+    "pytz": {
+        "version": "2022.2.1"
+    },
+    "pywin32-ctypes": {
+        "version": "0.2.0"
+    },
+    "rdflib": {
+        "version": "6.2.0"
+    },
+    "requests": {
+        "version": "2.28.1"
+    },
+    "requests-oauthlib": {
+        "version": "1.3.1"
+    },
+    "scaffoldfitter": {
+        "version": "0.5.0"
+    },
+    "scaffoldmaker": {
+        "version": "0.7.0"
+    },
+    "scipy": {
+        "version": "1.9.1"
+    },
+    "setuptools": {
+        "version": "58.1.0"
+    },
+    "shapely": {
+        "version": "2.0a1"
+    },
+    "shiboken2": {
+        "version": "5.15.2.1"
+    },
+    "six": {
+        "version": "1.16.0"
+    },
+    "sparc-curation-tools": {
+        "version": "0.4.2"
+    },
+    "svg.path": {
+        "version": "6.2"
+    },
+    "trimesh": {
+        "version": "3.14.0"
+    },
+    "urllib3": {
+        "version": "1.26.12"
+    },
+    "virtualenv": {
+        "version": "20.16.3"
+    }
+}

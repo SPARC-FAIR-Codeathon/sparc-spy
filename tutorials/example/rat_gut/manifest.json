@@ -1,0 +1,514 @@
+{
+  "pennsieveDatasetId" : 398,
+  "version" : 2,
+  "name" : "Scaffold map - Integrated mapping of rat stomach data",
+  "description" : "Axon innervation, vasculature and cell density data from different experiments are mapped onto a common coordinate framework provided by the generic rat stomach scaffold.",
+  "creator" : {
+    "first_name" : "Mabelle",
+    "last_name" : "Lin",
+    "orcid" : "0000-0002-6388-2181"
+  },
+  "contributors" : [
+    {
+      "first_name" : "Mabelle",
+      "last_name" : "Lin",
+      "orcid" : "0000-0002-6388-2181"
+    },
+    {
+      "first_name" : "Richard",
+      "last_name" : "Christie",
+      "orcid" : "0000-0003-4336-4640",
+      "degree" : "Ph.D."
+    },
+    {
+      "first_name" : "Peter",
+      "last_name" : "Hunter",
+      "orcid" : "0000-0001-9665-4145"
+    }
+  ],
+  "sourceOrganization" : "SPARC",
+  "keywords" : [
+    "rat",
+    "stomach",
+    "innervation",
+    "vasculature",
+    "cell density"
+  ],
+  "datePublished" : "2024-07-21",
+  "license" : "Creative Commons Attribution",
+  "@id" : "https://doi.org/10.26275/86ds-4q0e",
+  "publisher" : "The University of Pennsylvania",
+  "@context" : "http://schema.org/",
+  "@type" : "Dataset",
+  "schemaVersion" : "http://schema.org/version/3.7/",
+  "collections" : [
+  ],
+  "relatedPublications" : [
+    {
+      "doi" : "10.26275/ppgj-qqpf",
+      "relationshipType" : "IsDerivedFrom"
+    },
+    {
+      "doi" : "10.26275/iefx-c2qi",
+      "relationshipType" : "IsDerivedFrom"
+    },
+    {
+      "doi" : "10.26275/litx-swak",
+      "relationshipType" : "IsDerivedFrom"
+    },
+    {
+      "doi" : "10.26275/rmcz-jfoq",
+      "relationshipType" : "IsDerivedFrom"
+    },
+    {
+      "doi" : "10.26275/zxe9-o3ss",
+      "relationshipType" : "IsDerivedFrom"
+    },
+    {
+      "doi" : "10.17504/protocols.io.n2bvj6o35lk5/v3",
+      "relationshipType" : "IsSupplementedBy"
+    },
+    {
+      "doi" : "10.26275/3e5x-5lp9",
+      "relationshipType" : "IsDerivedFrom"
+    },
+    {
+      "doi" : "10.26275/uxns-qhbq",
+      "relationshipType" : "IsDerivedFrom"
+    }
+  ],
+  "files" : [
+    {
+      "name" : ".map-client-workflow.rdf",
+      "path" : "files/primary/workflow/.map-client-workflow.rdf",
+      "size" : 366,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:7b22deac-1ec7-4638-8556-2cda9ea11c64",
+      "s3VersionId" : "6sodrit1XGbl.gfYUeIx5dSQS7VQSSaV",
+      "sha256" : "X1i2Lq73gKGjuOdnWKW7RqRGixlBwUp3p2uCP2z/++w=-1"
+    },
+    {
+      "name" : "Argon_Viewer.conf",
+      "path" : "files/primary/workflow/Argon_Viewer.conf",
+      "size" : 192,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:c4c91503-f589-4df1-b71b-2c195fc644fd",
+      "s3VersionId" : "DAnVg5ckqNvhS8VTQE6EeUVHOqGyXaxf",
+      "sha256" : "Gz6R3sRNvMJ0ZyL7XkvbQB29rxpWeL4K3a7M/ZAQEMc=-1"
+    },
+    {
+      "name" : "DataEmbedder_Axon.exf",
+      "path" : "files/primary/workflow/embedded_data/DataEmbedder_Axon.exf",
+      "size" : 102253542,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:a36e2516-de00-463d-b3ac-b70fb793cf8e",
+      "s3VersionId" : "Gxw0DW3Q6AbzZTiUTE5WU6fkF.VNRXnK",
+      "sha256" : "kFppgK1jc2OjlNJGw8993ZbF0F3KlaNz9xL4IUep8ZQ=-1"
+    },
+    {
+      "name" : "DataEmbedder_vasculature.exf",
+      "path" : "files/primary/workflow/embedded_data/DataEmbedder_vasculature.exf",
+      "size" : 464009,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:88d5bf37-d78a-4c73-922d-df08f86a7955",
+      "s3VersionId" : "Cgk24meATVblpm4QaNkIYQeh61fRz_UV",
+      "sha256" : "y3Pme9LvcPDck6bjiVLhWy2TemhijApJZNo5ci+dq2k=-1"
+    },
+    {
+      "name" : "Field_Fitter.exf",
+      "path" : "files/primary/workflow/embedded_data/Field_Fitter.exf",
+      "size" : 1086993,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:ce120fea-7054-4b15-9f83-f282d11e1905",
+      "s3VersionId" : "wltwhBm514DBKzVPTFacPqolYm3wjHI5",
+      "sha256" : "UnrW+VBPIGCroy/+cnYzukOvC1RALhzqz41MqfDzRSE=-1"
+    },
+    {
+      "name" : "Muxer.conf",
+      "path" : "files/primary/workflow/Muxer.conf",
+      "size" : 145,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:6649d724-daf7-4293-93de-041239935694",
+      "s3VersionId" : "wPBe4fU0_Z.Aq.wWQ_pxRQqtJg_gZfrc",
+      "sha256" : "pSuLs2ZtGS0hjDsnagRORLc0BLZeqYk6ekILCKP424c=-1"
+    },
+    {
+      "name" : "Scaffold_Creator-settings.json",
+      "path" : "files/primary/workflow/Scaffold_Creator-settings.json",
+      "size" : 13286,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:26b3d942-959c-4ebb-b2aa-9af69a396f12",
+      "s3VersionId" : "uirRu.KAVbvvDdTZe0PRUgPFi2fT9jrc",
+      "sha256" : "SgG7EUECtEaR0v0PBkBvCT2VqsM8iQa005MRr5Ws75k=-1"
+    },
+    {
+      "name" : "Scaffold_Creator.conf",
+      "path" : "files/primary/workflow/Scaffold_Creator.conf",
+      "size" : 97,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:e4307346-cc51-4c4c-a076-6d81ad74e382",
+      "s3VersionId" : "9oarkmfTIEcRASvWtpNvzp.cFZmJ8.72",
+      "sha256" : "1kYqE3pQSXPO4pAN/ZUznJAmM138ETphdjpT9gbPteE=-1"
+    },
+    {
+      "name" : "Scaffold_Creator.exf",
+      "path" : "files/primary/workflow/Scaffold_Creator.exf",
+      "size" : 1154491,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:4601edad-cc62-47a5-90d4-37a38866b425",
+      "s3VersionId" : "UEqa0YydMx2nVtwI9a0cTBrnChgiDgtH",
+      "sha256" : "3zjMBY/JaG47noiJ4oiIebdr1lh+JBuhNeIaNkJBn1M=-1"
+    },
+    {
+      "name" : "Scaffold_Creator.vtk",
+      "path" : "files/primary/workflow/Scaffold_Creator.vtk",
+      "size" : 283653,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:0a961017-8146-4d6a-9c83-9f9647f151c3",
+      "s3VersionId" : ".UDXi5ng20NJfTxNvJKW1q2LatdFAwHP",
+      "sha256" : "tA7RRAHZoLYZxGD5mu2/tA+pdMFB6TnMHQ3QTcZ4DRU=-1"
+    },
+    {
+      "name" : "Scaffold_Creator_annotations.csv",
+      "path" : "files/primary/workflow/Scaffold_Creator_annotations.csv",
+      "size" : 4643,
+      "fileType" : "CSV",
+      "sourcePackageId" : "N:package:2c32f0ae-412f-41aa-ba5f-c2c0b0188fe5",
+      "s3VersionId" : "nhmrN_kWowoGFwCQjrJ4HGQEmUz_wT4L",
+      "sha256" : "f+k3hRDCra/yFpp8VFkVK8yeGoRJX2e15nWszYvKiuU=-1"
+    },
+    {
+      "name" : "Scaffold_Creator_marker.csv",
+      "path" : "files/primary/workflow/Scaffold_Creator_marker.csv",
+      "size" : 2730,
+      "fileType" : "CSV",
+      "sourcePackageId" : "N:package:fac2ee10-15ff-4e18-8a57-045a9a60a574",
+      "s3VersionId" : "TSPBSLKzSqQ4a5NbF5A1p0IWc2ZSOJWd",
+      "sha256" : "pObWsBmnt2Xw//QKSr6T1LJ90tUM2Jy5Q/1CP5dOLpc=-1"
+    },
+    {
+      "name" : "axons.conf",
+      "path" : "files/primary/workflow/axons.conf",
+      "size" : 150,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:aa0f4889-6960-491b-b018-44c0ed7fc83e",
+      "s3VersionId" : "rOnqK9HJHjkolbhi1f5yGQfZrWPKXSo3",
+      "sha256" : "r+nEQ1BrUFncO/ZSgKbmmnYJj+vOfnjGuLz/woQMG8U=-1"
+    },
+    {
+      "name" : "banner.jpg",
+      "path" : "banner.jpg",
+      "size" : 31172,
+      "fileType" : "JPEG",
+      "s3VersionId" : "GtuX3rAvuFfop89Atey0nH97Siisrsel"
+    },
+    {
+      "name" : "cell_density.conf",
+      "path" : "files/primary/workflow/cell_density.conf",
+      "size" : 147,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:439adb84-90c4-4759-ba07-f23299e82103",
+      "s3VersionId" : "6dB874g4cMp2HpbzSQeAcjmyfnvOh1Bh",
+      "sha256" : "iZxsGsp1oAx7125TeHEsBD/MpnGbUILXyKFun/pEgo8=-1"
+    },
+    {
+      "name" : "changelog.md",
+      "path" : "changelog.md",
+      "size" : 442,
+      "fileType" : "Markdown",
+      "s3VersionId" : "HMG7nd_sF7sRQmdbJePbSKYNX1Jz03C8"
+    },
+    {
+      "name" : "combined_1_split_1.json",
+      "path" : "files/derivative/combined_1_split_1.json",
+      "size" : 17488233,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:bdf29514-f6eb-4bfa-b075-79837904259d",
+      "s3VersionId" : "119xfw2GfO.DeH0Hsm.gRxN_6.5GV1hL",
+      "sha256" : "SpgMm4PCSaS3qos/yC/3e9SsZftfbSU/6HSIHtRyxdk=-1"
+    },
+    {
+      "name" : "combined_1_split_10.json",
+      "path" : "files/derivative/combined_1_split_10.json",
+      "size" : 518,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:b5b1e77d-89b8-49d4-8a0b-f3dff02fb572",
+      "s3VersionId" : "U5gYo1OvTFsDfr6ok9IMPc2CXS7p4o3m",
+      "sha256" : "xkA/+GWEvwG7p6Izd5jutBIsrfpV6FVruAob5Kp5wVQ=-1"
+    },
+    {
+      "name" : "combined_1_split_2.json",
+      "path" : "files/derivative/combined_1_split_2.json",
+      "size" : 17488792,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:fc0abf69-d36f-4045-826c-4f739b75aa22",
+      "s3VersionId" : "9gNkiUZhe.bTfUBQvELwu5vdQb9ZRbCr",
+      "sha256" : "B4cjEfSPq6ahiFlRg87BIlACysTekYiLI4QYrZo7l7c=-1"
+    },
+    {
+      "name" : "combined_1_split_3.json",
+      "path" : "files/derivative/combined_1_split_3.json",
+      "size" : 17765528,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:d8ef4419-e3d9-43d8-83b2-014895e6fef2",
+      "s3VersionId" : "dH7DqKYVfa40mBvMDzEFNhvTTu6gHWWj",
+      "sha256" : "TugOIuiwBjIiw/59DPNPoLzLUXwrzGyUPDFjH/y9fWk=-1"
+    },
+    {
+      "name" : "combined_1_split_4.json",
+      "path" : "files/derivative/combined_1_split_4.json",
+      "size" : 17912540,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:e9f2dde4-2b3c-4349-80b8-887fa29f3add",
+      "s3VersionId" : "YXAH4Sh9z.WlHxF0Ia.XS7SM36XYgcAx",
+      "sha256" : "OIXzvcmHbBSxaxMl2COXVXldoAFRAii4ijJEpZ2cuiw=-1"
+    },
+    {
+      "name" : "combined_1_split_5.json",
+      "path" : "files/derivative/combined_1_split_5.json",
+      "size" : 17787228,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:a788d904-9d7e-4e0c-8f4b-922054d65f91",
+      "s3VersionId" : "9o1ZLPiVVDDNXgvhgRcACLnIrUNBpRUk",
+      "sha256" : "ahf/saYcHYol9jx6hLNuSaFHYANGFdvhFsMcgc5QWp0=-1"
+    },
+    {
+      "name" : "combined_1_split_6.json",
+      "path" : "files/derivative/combined_1_split_6.json",
+      "size" : 17214944,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:acd1d57e-181d-42d7-a10b-5fb914657813",
+      "s3VersionId" : "VHBEwRTEYodNMmxnn09R_abWKlLTbIZ3",
+      "sha256" : "DliPPRiFD1qHWsa67cra7ZO4558AwghwQ1TCqLzcHOA=-1"
+    },
+    {
+      "name" : "combined_1_split_7.json",
+      "path" : "files/derivative/combined_1_split_7.json",
+      "size" : 17043449,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:7a8f7922-1e3e-40a3-adb1-40eb8986935c",
+      "s3VersionId" : "j2.uleZrn7s34YFpY51FhcE2pKWfP0dL",
+      "sha256" : "IMD4tr3bXEL63EbsTBzvTNQDoXoRByKdrHHvllV5UJ8=-1"
+    },
+    {
+      "name" : "combined_1_split_8.json",
+      "path" : "files/derivative/combined_1_split_8.json",
+      "size" : 17034977,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:ffc7324f-296e-4481-9fff-29f57bd2a0d3",
+      "s3VersionId" : "tmFH9I4F2GjQJXR_dpYWkVnFgq0BT2SF",
+      "sha256" : "pq8emlWt+ZGpT/eyJxr3nKW/+COzGQBgqRYivckMcKU=-1"
+    },
+    {
+      "name" : "combined_1_split_9.json",
+      "path" : "files/derivative/combined_1_split_9.json",
+      "size" : 17040716,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:ec9ddfb0-340b-4246-85dc-2ba8341f5908",
+      "s3VersionId" : "ZVgh7ecnBeJuMAErDuJmV1Sil692KAwT",
+      "sha256" : "SMfQINjiX/aeKfNI7rVYvdNxsivuFaLyfJ6R7IuaP04=-1"
+    },
+    {
+      "name" : "combined_2.json",
+      "path" : "files/derivative/combined_2.json",
+      "size" : 8751009,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:2648ff95-4359-440c-a532-16157856b752",
+      "s3VersionId" : "q1piivvCas_uO3K0r.pT5Aa1Sr9DZDnJ",
+      "sha256" : "oBtAF6njspV0ccYEG1KW98VIgvyrG0am1Gwj+FHW2W8=-1"
+    },
+    {
+      "name" : "combined_3.json",
+      "path" : "files/derivative/combined_3.json",
+      "size" : 5390321,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:6b92da78-d2a6-4711-980e-ab850434f891",
+      "s3VersionId" : "gaMGiYlRl6GlkrRaGFVLUBkO0eosw8GY",
+      "sha256" : "S7tXOR0ybC96o6hZDCEDI/X14PtNFFv+p9q1j7UgBzc=-1"
+    },
+    {
+      "name" : "combined_4.json",
+      "path" : "files/derivative/combined_4.json",
+      "size" : 1453763,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:91b1963e-3c3e-4f13-84a1-360a35965e22",
+      "s3VersionId" : "uEsrAFaYLg31y17Kh4GkNI5Wt5JhR5nu",
+      "sha256" : "bXaRj+EdGDbLt//GoPklRnH6WiKKDjz10KFw5oiTeHo=-1"
+    },
+    {
+      "name" : "combined_5.json",
+      "path" : "files/derivative/combined_5.json",
+      "size" : 3644181,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:d609858d-3765-4563-a385-d6506ade3ce7",
+      "s3VersionId" : "yE35OOLVrrABUqzQH_XDQKLFo6cI8BwS",
+      "sha256" : "iFY63waBw72D4CyvUGSehgg3aXacUQk6MxjiWmHGvhE=-1"
+    },
+    {
+      "name" : "combined_6.json",
+      "path" : "files/derivative/combined_6.json",
+      "size" : 5167560,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:9b273ebc-159f-4917-b277-6f48af1790ad",
+      "s3VersionId" : "cOxjhUolHqi5BDSXFCvF8J_f.VvARcVd",
+      "sha256" : "3xQlOhJtHIplXjNlak/EzbemF9/X4eWc0Wv8nf5gt9Q=-1"
+    },
+    {
+      "name" : "combined_Layout1_thumbnail.jpeg",
+      "path" : "files/derivative/combined_Layout1_thumbnail.jpeg",
+      "size" : 98685,
+      "fileType" : "JPEG",
+      "sourcePackageId" : "N:package:2fa0c57c-42fe-45e2-816b-786a6304bdfe",
+      "s3VersionId" : "bOWzhM_B4x7U5IyDKlW_PAwtBVNlQU9O",
+      "sha256" : "l1H2/lGeqqumSzuURTcuZMlb6ikTkEmSO5Ec4kP3pYs=-1"
+    },
+    {
+      "name" : "combined_Layout1_view.json",
+      "path" : "files/derivative/combined_Layout1_view.json",
+      "size" : 338,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:33e86938-dfd1-46cc-b4b0-6a99b5838cc9",
+      "s3VersionId" : "1Y58djtwNpcJSr5Q.Cm0NOH1IuyswK.R",
+      "sha256" : "O+GgNpwDaqRahaQBducEvxHCqnMKS+DVErH/yOEh5rU=-1"
+    },
+    {
+      "name" : "combined_metadata.json",
+      "path" : "files/derivative/combined_metadata.json",
+      "size" : 1559,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:5e274533-1966-4587-aa12-a9487bce18a7",
+      "s3VersionId" : "_Y5CAboZxWOM7BG6.ZdK7_Xri.gUvAqK",
+      "sha256" : "gc8JivSCMuBEJ7866M79wjZ+S93QCZi1PKtapwr2vro=-1"
+    },
+    {
+      "name" : "combined_metadata_context_info.json",
+      "path" : "files/derivative/combined_metadata_context_info.json",
+      "size" : 1895,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:2b7efb43-079e-450a-8699-6fa0e0488d0d",
+      "s3VersionId" : "b4dWAYRDXBbAhEtxW__Cw4mnJmRSLCVs"
+    },
+    {
+      "name" : "dataset_description.xlsx",
+      "path" : "files/dataset_description.xlsx",
+      "size" : 15205,
+      "fileType" : "MSExcel",
+      "sourcePackageId" : "N:package:dacb562f-6e92-45b5-a5a5-d67be14e0e23",
+      "s3VersionId" : "XvcL.7ZzXUAs3hEIW_uwnTXsOCUWHJgz"
+    },
+    {
+      "name" : "document-c9b8145d.json",
+      "path" : "files/primary/workflow/Argon_Viewer-previous-docs/document-c9b8145d.json",
+      "size" : 29437,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:3b758ea1-09ea-4182-90b4-9c3c216d82fb",
+      "s3VersionId" : "dG9x5nQriyScYVhQSBFA_0E8YatB2HGg",
+      "sha256" : "tHFO2wwH1tCxX/2U8MZC17ktYrhMGIfzTgMpnMWQI64=-1"
+    },
+    {
+      "name" : "file.csv",
+      "path" : "metadata/records/file.csv",
+      "size" : 5612,
+      "fileType" : "CSV",
+      "s3VersionId" : "R2Q6QVBNcYpsz_T.V3PtSp9urQuO4QDG"
+    },
+    {
+      "name" : "manifest.json",
+      "path" : "manifest.json",
+      "size" : 18776,
+      "fileType" : "Json"
+    },
+    {
+      "name" : "manifest.xlsx",
+      "path" : "files/derivative/manifest.xlsx",
+      "size" : 5228,
+      "fileType" : "MSExcel",
+      "sourcePackageId" : "N:package:4ac1ea69-3a78-41b9-b03a-0b125bee9e6f",
+      "s3VersionId" : "zrUT0ikrP2QN0zXWhqikwa4V.4KRyK8r"
+    },
+    {
+      "name" : "manifest.xlsx",
+      "path" : "files/primary/manifest.xlsx",
+      "size" : 8842,
+      "fileType" : "MSExcel",
+      "sourcePackageId" : "N:package:a0688b74-5ee4-4f2f-b2bf-c3f064ac0b68",
+      "s3VersionId" : "XhmXpE6O66ziUwrogR4C2kRpV6wb9sEp"
+    },
+    {
+      "name" : "map-client-workflow.proj",
+      "path" : "files/primary/workflow/map-client-workflow.proj",
+      "size" : 4288,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:f900b0bc-61d8-4022-9c04-19f0de53fc8a",
+      "s3VersionId" : "z.1x9PNi8JrK8qwxFF0R3ESx4F2Ow9o8",
+      "sha256" : "9pPwxuzYQWXkrzHPsDIfz/buN/gG2zmfceWXb1Wmm38=-1"
+    },
+    {
+      "name" : "mouse_CGRP.conf",
+      "path" : "files/primary/workflow/mouse_CGRP.conf",
+      "size" : 161,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:7b50537a-d867-4244-8730-032ca6267fb2",
+      "s3VersionId" : "5TmFTPWwBu9mOiry2T7D2Dxu0YxS9tlf",
+      "sha256" : "uKS6EgkIpdQqWCGv89QO9NPjUE3PX1H6oDped+G2Y/8=-1"
+    },
+    {
+      "name" : "provenance.json",
+      "path" : "files/primary/provenance.json",
+      "size" : 14863,
+      "fileType" : "Json",
+      "sourcePackageId" : "N:package:ed20de31-cbf5-418b-8fcc-b671794daf7d",
+      "s3VersionId" : "QGoSVmF8Z6Tn8PSYlTHSjynRuH.GxJ6n"
+    },
+    {
+      "name" : "readme.md",
+      "path" : "readme.md",
+      "size" : 2045,
+      "fileType" : "Markdown",
+      "s3VersionId" : "KQxWuyxF47NIcuWN4XRd0IKrXj5H98OZ"
+    },
+    {
+      "name" : "schema.json",
+      "path" : "metadata/schema.json",
+      "size" : 567,
+      "fileType" : "Json",
+      "s3VersionId" : "xO68N5b6CVL9LeUHHGLCY96CIh9iOcUZ"
+    },
+    {
+      "name" : "submission.xlsx",
+      "path" : "files/submission.xlsx",
+      "size" : 5688,
+      "fileType" : "MSExcel",
+      "sourcePackageId" : "N:package:c8a10727-64b4-48b9-b386-1b5e0422444f",
+      "s3VersionId" : "l8Qnsz16v1q33yX9V.B2hjjevq2ocGap"
+    },
+    {
+      "name" : "thumbnail.conf",
+      "path" : "files/primary/workflow/thumbnail.conf",
+      "size" : 475,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:dc79cd73-28e2-4314-b816-d9957635acee",
+      "s3VersionId" : "933UHtrZZD6HAXtKueDagF6hJfY3wge2",
+      "sha256" : "kmFNZaj2j7bFVT1lakO6MreBlXkTvxHEsrUyYKJkw6A=-1"
+    },
+    {
+      "name" : "vasculature.conf",
+      "path" : "files/primary/workflow/vasculature.conf",
+      "size" : 170,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:f4616eef-f6db-426e-918e-72871003ae56",
+      "s3VersionId" : "C9eM7ZyF_rOgTimRFU_i9lGwmEFya5o5",
+      "sha256" : "6OTHDoLnXtBZ8PiEWjbLU7VXXa1XWchIP8ikm4MSPS8=-1"
+    },
+    {
+      "name" : "webGL.conf",
+      "path" : "files/primary/workflow/webGL.conf",
+      "size" : 466,
+      "fileType" : "GenericData",
+      "sourcePackageId" : "N:package:4be801a2-7878-44c6-b358-2f8bf032c993",
+      "s3VersionId" : "UnZIrQEb9uBV3QLj924Hg9SYRi.BPEjE",
+      "sha256" : "K379VE6u1nzeWudLftj8vLaRgpVfhG8Mjgf+eEewkQs=-1"
+    }
+  ],
+  "pennsieveSchemaVersion" : "4.0"
+}
