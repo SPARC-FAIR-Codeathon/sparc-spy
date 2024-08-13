@@ -1,0 +1,44 @@
+[
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "axon innervation",
+    "Type": "Lines",
+    "URL": [
+      "innervationDensity_1_split_1.json",
+      "innervationDensity_1_split_2.json",
+      "innervationDensity_1_split_3.json",
+      "innervationDensity_1_split_4.json",
+      "innervationDensity_1_split_5.json",
+      "innervationDensity_1_split_6.json",
+      "innervationDensity_1_split_7.json",
+      "innervationDensity_1_split_8.json",
+      "innervationDensity_1_split_9.json",
+      "innervationDensity_1_split_10.json",
+      "innervationDensity_1_split_11.json",
+      "innervationDensity_1_split_12.json"
+    ]
+  },
+  {
+    "GroupName": "circular-longitudinal muscle interface of ventral stomach",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Surfaces",
+    "URL": "innervationDensity_2.json"
+  },
+  {
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Lines",
+    "URL": "innervationDensity_3.json"
+  },
+  {
+    "Type": "View",
+    "URL": "innervationDensity_Layout1_view.json"
+  }
+]

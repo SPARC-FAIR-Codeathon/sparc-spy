@@ -1,0 +1,29 @@
+{
+  "banner": "innervationDensity_Layout1_thumbnail.jpeg",
+  "description": "Axon innervation data digitally traced from a flat-mount sample retrieved from the ventral stomach of subject 112 is used to compute a smooth innervation density distribution field. The data is mapped onto a common coordinate framework provided by the generic rat stomach scaffold. The colored lines represent the axon innervation while the white-to-blue spectrum represents the spatial distribution of innervation density, with blue representing areas with dense innervation and white areas are sparse in innervation. ",
+  "heading": "Axon innervation and density of subject 112",
+  "id": "sparc.science.context_data",
+  "metadata": "innervationDensity_metadata.json",
+  "samples": [
+    {
+      "annotation": "",
+      "description": "Axon innervation from subject 112.",
+      "doi": "https://doi.org/10.26275/rmcz-jfoq",
+      "heading": "Subject 112",
+      "id": "Sample 1",
+      "path": "primary/sub-112/sam-DB-rat-ventral-112/3D scaffold_sub112VM.xml",
+      "view": "View 1"
+    }
+  ],
+  "version": "0.2.0",
+  "views": [
+    {
+      "annotation": "--",
+      "description": "A view of the innervation and its density field mapped spatially over a generic rat stomach scaffold.",
+      "id": "View 1",
+      "path": "innervationDensity_Layout1_view.json",
+      "sample": "Sample 1",
+      "thumbnail": "innervationDensity_Layout1_thumbnail.jpeg"
+    }
+  ]
+}
