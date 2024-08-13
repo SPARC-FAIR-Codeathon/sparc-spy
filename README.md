@@ -89,6 +89,8 @@ Visualizations can make complex data more engaging and easier to communicate to 
 
 
 ![alt text](https://github.com/SPARC-FAIR-Codeathon/sparc-spy/blob/tutorial_1/tutorials/images/5.gif)
+![alt text](https://github.com/SPARC-FAIR-Codeathon/sparc-spy/blob/tutorial_1/tutorials/images/1.png)
+
 
 
 ## Setting up SPARC-SPy
