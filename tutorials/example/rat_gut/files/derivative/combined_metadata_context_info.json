@@ -1,0 +1,47 @@
+{
+  "banner": "combined_Layout1_thumbnail.jpeg",
+  "description": "Segmentation data of axon innervation and vasculature are mapped onto a generic rat stomach scaffold together with the density distribution of gastrin in the corpus and antrum regions of the stomach. The white-to-green spectrum represents the gastrin density with the green zone signifying higher gastrin level and white zone having lower gastrin level. ",
+  "heading": "Integrated mapping of data on rat stomach",
+  "id": "sparc.science.context_data",
+  "metadata": "combined_metadata.json",
+  "samples": [
+    {
+      "annotation": "",
+      "description": "Segmentation data of axon innervation used for mapping. ",
+      "doi": "https://doi.org/10.26275/rmcz-jfoq",
+      "heading": "Axon innervation",
+      "id": "Sample 1",
+      "path": "primary/sub-112/sam-DB-rat-ventral-112/3D scaffold_sub112VM.xml",
+      "view": "View 1"
+    },
+    {
+      "annotation": "",
+      "description": "Segmentation data of vasculature used for mapping. ",
+      "doi": "https://doi.org/10.26275/zxe9-o3ss",
+      "heading": "Vasculature",
+      "id": "Sample 2",
+      "path": "derivative/XML/11282_20190111_104621.xml",
+      "view": "View 1"
+    },
+    {
+      "annotation": "",
+      "description": "Gastrin density used to create fitted field for mapping.",
+      "doi": "https://doi.org/10.26275/o9qr-l4x9",
+      "heading": "Gastrin density",
+      "id": "Sample 3",
+      "path": "derivative/quantification summary.xlsx",
+      "view": "View 1"
+    }
+  ],
+  "version": "0.2.0",
+  "views": [
+    {
+      "annotation": "--",
+      "description": "View of different types of data integrated on a generic rat stomach scaffold.",
+      "id": "View 1",
+      "path": "combined_Layout1_view.json",
+      "sample": "Sample 3",
+      "thumbnail": "combined_Layout1_thumbnail.jpeg"
+    }
+  ]
+}

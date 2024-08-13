@@ -1,0 +1,1253 @@
+{
+  "CMLibs Argon Version": [
+    "0",
+    "4",
+    "2"
+  ],
+  "Materials": {
+    "DefaultMaterial": "default",
+    "DefaultSelectedMaterial": "default_selected",
+    "DefaultSurfaceMaterial": "white",
+    "Materials": [
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Diffuse": [
+          0,
+          0,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "black",
+        "Shininess": 0.2,
+        "Specular": [
+          0.3,
+          0.3,
+          0.3
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0,
+          0,
+          1
+        ],
+        "Diffuse": [
+          0,
+          0,
+          1
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "blue",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0.7,
+          0.7,
+          0.6
+        ],
+        "Diffuse": [
+          0.9,
+          0.9,
+          0.7
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "bone",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0.5,
+          0.25,
+          0
+        ],
+        "Diffuse": [
+          0.5,
+          0.25,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "brown",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0,
+          1,
+          1
+        ],
+        "Diffuse": [
+          0,
+          1,
+          1
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "cyan",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Diffuse": [
+          0,
+          0,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "default",
+        "Shininess": 0,
+        "Specular": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          1,
+          0.2,
+          0
+        ],
+        "Diffuse": [
+          1,
+          0.2,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "default_selected",
+        "Shininess": 0,
+        "Specular": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          1,
+          0.4,
+          0
+        ],
+        "Diffuse": [
+          1,
+          0.7,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "gold",
+        "Shininess": 0.3,
+        "Specular": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0,
+          1,
+          0
+        ],
+        "Diffuse": [
+          0,
+          1,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "green",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "Diffuse": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "grey25",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "Diffuse": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "grey50",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "Diffuse": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "grey75",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          1,
+          0,
+          1
+        ],
+        "Diffuse": [
+          1,
+          0,
+          1
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "magenta",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0.4,
+          0.14,
+          0.11
+        ],
+        "Diffuse": [
+          0.5,
+          0.12,
+          0.1
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "muscle",
+        "Shininess": 0.2,
+        "Specular": [
+          0.3,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          1,
+          0.5,
+          0
+        ],
+        "Diffuse": [
+          1,
+          0.5,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "orange",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          1,
+          0,
+          0
+        ],
+        "Diffuse": [
+          1,
+          0,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "red",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0.4,
+          0.4,
+          0.4
+        ],
+        "Diffuse": [
+          0.7,
+          0.7,
+          0.7
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "silver",
+        "Shininess": 0.3,
+        "Specular": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "Alpha": 0.5,
+        "Ambient": [
+          0.8274509906768799,
+          0.5490196347236633,
+          0.4117647111415863
+        ],
+        "Diffuse": [
+          0.9882352948188782,
+          0.6549019813537598,
+          0.4901960790157318
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "stomach_transparent",
+        "Shininess": 0.4,
+        "Specular": [
+          0.2196078449487686,
+          0.2196078449487686,
+          0.2196078449487686
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          0.9,
+          0.7,
+          0.5
+        ],
+        "Diffuse": [
+          0.9,
+          0.7,
+          0.5
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "tissue",
+        "Shininess": 0.2000000029802322,
+        "Specular": [
+          0.2,
+          0.2,
+          0.3
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          1,
+          1,
+          1
+        ],
+        "Diffuse": [
+          1,
+          1,
+          1
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "white",
+        "Shininess": 0,
+        "Specular": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "Alpha": 1,
+        "Ambient": [
+          1,
+          1,
+          0
+        ],
+        "Diffuse": [
+          1,
+          1,
+          0
+        ],
+        "Emission": [
+          0,
+          0,
+          0
+        ],
+        "Name": "yellow",
+        "Shininess": 0.2,
+        "Specular": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      }
+    ]
+  },
+  "RootRegion": {
+    "ChildRegions": [
+      {
+        "Fieldmodule": {
+          "Fields": [
+            {
+              "FieldApply": {
+                "EvaluateRegionPath": "..",
+                "NumberOfComponents": 3,
+                "SourceFields": [
+                  "host_coordinates",
+                  "coord_arg",
+                  "stomach coordinates"
+                ]
+              },
+              "IsManaged": true,
+              "Name": "apply_host_coordinates"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "coordinates"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "1"
+                ],
+                "NumberOfComponents": 1
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": false,
+              "Name": "radius"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": false,
+              "Name": "rgb"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "stomach coordinates"
+            }
+          ]
+        },
+        "Model": {
+          "Sources": [
+            {
+              "FileName": "../embedded_data/DataEmbedder_Axon.exf",
+              "Type": "FILE"
+            }
+          ]
+        },
+        "Name": "axon",
+        "Scene": {
+          "Graphics": [
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "apply_host_coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0,
+                  0
+                ],
+                "ScaleFactors": [
+                  1,
+                  1
+                ],
+                "ShapeType": "LINE"
+              },
+              "Lines": {},
+              "Material": "blue",
+              "RenderLineWidth": 1,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "SubgroupField": "Axon",
+              "Tessellation": "default",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            }
+          ],
+          "VisibilityFlag": true
+        }
+      },
+      {
+        "Fieldmodule": {
+          "Fields": [
+            {
+              "FieldApply": {
+                "EvaluateRegionPath": "..",
+                "NumberOfComponents": 3,
+                "SourceFields": [
+                  "host_coordinates",
+                  "coord_arg",
+                  "stomach coordinates"
+                ]
+              },
+              "IsManaged": true,
+              "Name": "apply_host_coordinates"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "coordinates"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "1"
+                ],
+                "NumberOfComponents": 1
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": false,
+              "Name": "radius"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": false,
+              "Name": "rgb"
+            },
+            {
+              "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+              "FieldFiniteElement": {
+                "ComponentNames": [
+                  "x",
+                  "y",
+                  "z"
+                ],
+                "NumberOfComponents": 3
+              },
+              "IsManaged": true,
+              "IsTypeCoordinate": true,
+              "Name": "stomach coordinates"
+            }
+          ]
+        },
+        "Model": {
+          "Sources": [
+            {
+              "FileName": "../embedded_data/DataEmbedder_vasculature.exf",
+              "Type": "FILE"
+            }
+          ]
+        },
+        "Name": "vasculature",
+        "Scene": {
+          "Graphics": [
+            {
+              "BoundaryMode": "ALL",
+              "CoordinateField": "apply_host_coordinates",
+              "ElementFaceType": "ALL",
+              "FieldDomainType": "MESH1D",
+              "LineAttributes": {
+                "BaseSize": [
+                  0.01,
+                  0.01
+                ],
+                "OrientationScaleField": "radius",
+                "ScaleFactors": [
+                  2e-06,
+                  2e-06
+                ],
+                "ShapeType": "CIRCLE_EXTRUSION"
+              },
+              "Lines": {},
+              "Material": "red",
+              "RenderLineWidth": 1,
+              "RenderPointSize": 1,
+              "RenderPolygonMode": "SHADED",
+              "Scenecoordinatesystem": "LOCAL",
+              "SelectMode": "ON",
+              "SelectedMaterial": "default_selected",
+              "Tessellation": "vasculature",
+              "Type": "LINES",
+              "VisibilityFlag": true
+            }
+          ],
+          "VisibilityFlag": true
+        }
+      }
+    ],
+    "Fieldmodule": {
+      "Fields": [
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "density"
+            ],
+            "NumberOfComponents": 1
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": false,
+          "Name": "5ht"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldArgumentReal": {
+            "NumberOfComponents": 3
+          },
+          "IsManaged": true,
+          "Name": "coord_arg"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "x",
+              "y",
+              "z"
+            ],
+            "NumberOfComponents": 3
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": true,
+          "Name": "coordinates"
+        },
+        {
+          "FieldFindMeshLocation": {
+            "Mesh": "mesh3d",
+            "SearchMesh": "mesh3d",
+            "SearchMode": "NEAREST",
+            "SourceFields": [
+              "coord_arg",
+              "stomach coordinates"
+            ]
+          },
+          "IsManaged": true,
+          "Name": "find_host_coordinates"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "density"
+            ],
+            "NumberOfComponents": 1
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": false,
+          "Name": "gas"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "density"
+            ],
+            "NumberOfComponents": 1
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": false,
+          "Name": "ghr"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "density"
+            ],
+            "NumberOfComponents": 1
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": false,
+          "Name": "hdc"
+        },
+        {
+          "FieldEmbedded": {
+            "SourceFields": [
+              "coordinates",
+              "find_host_coordinates"
+            ]
+          },
+          "IsManaged": true,
+          "Name": "host_coordinates"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "x",
+              "y",
+              "z"
+            ],
+            "NumberOfComponents": 3
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": true,
+          "Name": "marker stomach coordinates"
+        },
+        {
+          "FieldStoredMeshLocation": {
+            "Mesh": "mesh3d"
+          },
+          "IsManaged": true,
+          "Name": "marker_location"
+        },
+        {
+          "FieldStoredString": null,
+          "IsManaged": true,
+          "Name": "marker_name"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "density"
+            ],
+            "NumberOfComponents": 1
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": false,
+          "Name": "pyy"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "density"
+            ],
+            "NumberOfComponents": 1
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": false,
+          "Name": "som"
+        },
+        {
+          "CoordinateSystemType": "RECTANGULAR_CARTESIAN",
+          "FieldFiniteElement": {
+            "ComponentNames": [
+              "x",
+              "y",
+              "z"
+            ],
+            "NumberOfComponents": 3
+          },
+          "IsManaged": true,
+          "IsTypeCoordinate": true,
+          "Name": "stomach coordinates"
+        }
+      ]
+    },
+    "Model": {
+      "Sources": [
+        {
+          "FileName": "../Scaffold_Creator.exf",
+          "Type": "FILE"
+        },
+        {
+          "FileName": "../embedded_data/Field_Fitter.exf",
+          "Type": "FILE"
+        }
+      ]
+    },
+    "Scene": {
+      "Graphics": [
+        {
+          "BoundaryMode": "ALL",
+          "CoordinateField": "coordinates",
+          "ElementFaceType": "XI3_0",
+          "FieldDomainType": "MESH2D",
+          "Material": "stomach_transparent",
+          "RenderLineWidth": 1,
+          "RenderPointSize": 1,
+          "RenderPolygonMode": "SHADED",
+          "Scenecoordinatesystem": "LOCAL",
+          "SelectMode": "ON",
+          "SelectedMaterial": "default_selected",
+          "Surfaces": {},
+          "Tessellation": "default",
+          "Type": "SURFACES",
+          "VisibilityFlag": true
+        },
+        {
+          "BoundaryMode": "ALL",
+          "CoordinateField": "coordinates",
+          "ElementFaceType": "ALL",
+          "FieldDomainType": "MESH1D",
+          "LineAttributes": {
+            "BaseSize": [
+              0,
+              0
+            ],
+            "ScaleFactors": [
+              1,
+              1
+            ],
+            "ShapeType": "LINE"
+          },
+          "Lines": {},
+          "Material": "stomach_transparent",
+          "RenderLineWidth": 1,
+          "RenderPointSize": 1,
+          "RenderPolygonMode": "SHADED",
+          "Scenecoordinatesystem": "LOCAL",
+          "SelectMode": "ON",
+          "SelectedMaterial": "default_selected",
+          "Tessellation": "default",
+          "Type": "LINES",
+          "VisibilityFlag": true
+        },
+        {
+          "BoundaryMode": "ALL",
+          "CoordinateField": "coordinates",
+          "DataField": "gas",
+          "ElementFaceType": "ALL",
+          "FieldDomainType": "MESH2D",
+          "Material": "white",
+          "RenderLineWidth": 1,
+          "RenderPointSize": 1,
+          "RenderPolygonMode": "SHADED",
+          "Scenecoordinatesystem": "LOCAL",
+          "SelectMode": "ON",
+          "SelectedMaterial": "default_selected",
+          "Spectrum": "default",
+          "SubgroupField": "pyloric antrum",
+          "Surfaces": {},
+          "Tessellation": "default",
+          "Type": "SURFACES",
+          "VisibilityFlag": true
+        },
+        {
+          "BoundaryMode": "ALL",
+          "CoordinateField": "coordinates",
+          "DataField": "gas",
+          "ElementFaceType": "ALL",
+          "FieldDomainType": "MESH2D",
+          "Material": "white",
+          "RenderLineWidth": 1,
+          "RenderPointSize": 1,
+          "RenderPolygonMode": "SHADED",
+          "Scenecoordinatesystem": "LOCAL",
+          "SelectMode": "ON",
+          "SelectedMaterial": "default_selected",
+          "Spectrum": "default",
+          "SubgroupField": "body of stomach",
+          "Surfaces": {},
+          "Tessellation": "default",
+          "Type": "SURFACES",
+          "VisibilityFlag": true
+        }
+      ],
+      "VisibilityFlag": true
+    }
+  },
+  "Spectrums": {
+    "DefaultSpectrum": "default",
+    "Spectrums": [
+      {
+        "Components": [
+          {
+            "Active": true,
+            "BandedRatio": 0.2,
+            "ColourMappingType": "WHITE_TO_GREEN",
+            "ColourMaximum": 1,
+            "ColourMinimum": 0,
+            "ColourReverse": false,
+            "Exaggeration": 1,
+            "ExtendAbove": true,
+            "ExtendBelow": true,
+            "FieldComponent": 1,
+            "FixMaximum": false,
+            "FixMinimum": false,
+            "NumberOfBands": 10,
+            "RangeMaximum": 296.9375610351562,
+            "RangeMinimum": -26.0936279296875,
+            "ScaleType": "LINEAR",
+            "StepValue": 0.5
+          }
+        ],
+        "MaterialOverwrite": true,
+        "Name": "default"
+      },
+      {
+        "Components": [
+          {
+            "Active": true,
+            "BandedRatio": 0.2,
+            "ColourMappingType": "MONOCHROME",
+            "ColourMaximum": 1,
+            "ColourMinimum": 0,
+            "ColourReverse": false,
+            "Exaggeration": 1,
+            "ExtendAbove": true,
+            "ExtendBelow": true,
+            "FieldComponent": 1,
+            "FixMaximum": false,
+            "FixMinimum": false,
+            "NumberOfBands": 10,
+            "RangeMaximum": 1,
+            "RangeMinimum": 0,
+            "ScaleType": "LINEAR",
+            "StepValue": 0.5
+          }
+        ],
+        "MaterialOverwrite": true,
+        "Name": "mono"
+      },
+      {
+        "Components": [
+          {
+            "Active": true,
+            "BandedRatio": 0.2,
+            "ColourMappingType": "RED",
+            "ColourMaximum": 1,
+            "ColourMinimum": 0,
+            "ColourReverse": false,
+            "Exaggeration": 1,
+            "ExtendAbove": true,
+            "ExtendBelow": true,
+            "FieldComponent": 1,
+            "FixMaximum": false,
+            "FixMinimum": false,
+            "NumberOfBands": 10,
+            "RangeMaximum": 1,
+            "RangeMinimum": 0,
+            "ScaleType": "LINEAR",
+            "StepValue": 0.5
+          },
+          {
+            "Active": true,
+            "BandedRatio": 0.2,
+            "ColourMappingType": "GREEN",
+            "ColourMaximum": 1,
+            "ColourMinimum": 0,
+            "ColourReverse": false,
+            "Exaggeration": 1,
+            "ExtendAbove": true,
+            "ExtendBelow": true,
+            "FieldComponent": 2,
+            "FixMaximum": false,
+            "FixMinimum": false,
+            "NumberOfBands": 10,
+            "RangeMaximum": 1,
+            "RangeMinimum": 0,
+            "ScaleType": "LINEAR",
+            "StepValue": 0.5
+          },
+          {
+            "Active": true,
+            "BandedRatio": 0.2,
+            "ColourMappingType": "BLUE",
+            "ColourMaximum": 1,
+            "ColourMinimum": 0,
+            "ColourReverse": false,
+            "Exaggeration": 1,
+            "ExtendAbove": true,
+            "ExtendBelow": true,
+            "FieldComponent": 3,
+            "FixMaximum": false,
+            "FixMinimum": false,
+            "NumberOfBands": 10,
+            "RangeMaximum": 1,
+            "RangeMinimum": 0,
+            "ScaleType": "LINEAR",
+            "StepValue": 0.5
+          }
+        ],
+        "MaterialOverwrite": true,
+        "Name": "rgb"
+      }
+    ]
+  },
+  "Tessellations": {
+    "DefaultPointsTessellation": "default_points",
+    "DefaultTessellation": "default",
+    "Tessellations": [
+      {
+        "CircleDivisions": 12,
+        "MinimumDivisions": [
+          1
+        ],
+        "Name": "default",
+        "RefinementFactors": [
+          6
+        ]
+      },
+      {
+        "CircleDivisions": 12,
+        "MinimumDivisions": [
+          1
+        ],
+        "Name": "default_points",
+        "RefinementFactors": [
+          1
+        ]
+      },
+      {
+        "CircleDivisions": 48,
+        "MinimumDivisions": [
+          1
+        ],
+        "Name": "material_preview",
+        "RefinementFactors": [
+          1
+        ]
+      },
+      {
+        "CircleDivisions": 6,
+        "MinimumDivisions": [
+          1
+        ],
+        "Name": "vasculature",
+        "RefinementFactors": [
+          4
+        ]
+      }
+    ]
+  },
+  "Views": {
+    "ActiveView": "Layout1",
+    "Children": [
+      {
+        "Name": "Layout1",
+        "Scenes": [
+          {
+            "Col": 0,
+            "Row": 0,
+            "Sceneviewer": {
+              "AntialiasSampling": 8,
+              "BackgroundColourRGB": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "EyePosition": [
+                -0.21041507347040558,
+                0.5378429830556671,
+                3.773263371151067
+              ],
+              "FarClippingPlane": 15.034846730083222,
+              "LightingLocalViewer": false,
+              "LightingTwoSided": true,
+              "LookatPosition": [
+                0.041130132430442314,
+                0.2282410968679585,
+                0.1724354212620489
+              ],
+              "NearClippingPlane": 0.0015413037284832596,
+              "PerturbLinesFlag": true,
+              "ProjectionMode": "PERSPECTIVE",
+              "Scene": null,
+              "Scenefilter": "default",
+              "TranslationRate": 1,
+              "TransparencyLayers": 1,
+              "TransparencyMode": "FAST",
+              "TumbleRate": 1.5,
+              "UpVector": [
+                0.009306552365784418,
+                0.9963361563752642,
+                -0.08501559611287778
+              ],
+              "ViewAngle": 0.698131700797731,
+              "ZoomRate": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

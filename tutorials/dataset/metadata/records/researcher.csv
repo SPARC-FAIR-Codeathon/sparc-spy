@@ -1,0 +1,4 @@
+id,lastName,firstName,middleName,hasAffiliation,hasRole,hasORCIDId,recordHash
+a4605d05-70f4-4900-bfab-06e2179f502f,Hunter,Peter,,Auckland Bioegineering Institute;The University of Auckland,,https://orcid.org/0000-0001-9665-4145,e33d21fb1a42449d78ca49c26491e48c
+408f8410-4448-46a1-87a9-5542d39fe798,Osanlouy,Mahyar,,Auckland Bioegineering Institute;The University of Auckland,,https://orcid.org/0000-0002-4329-6062,0ce8fa051c0aebe535c7f046207b5aa9
+96114c12-fa0c-478c-bfdb-9768533132a3,Christie,Richard,,Auckland Bioegineering Institute;The University of Auckland,,https://orcid.org/0000-0003-4336-4640,be593a4151ea600c3de9f0003ec640db
