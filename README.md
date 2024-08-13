@@ -22,8 +22,8 @@ A python tool to enhance the accessibility of SPARC dataset visualisations and t
 [license-shield]: https://img.shields.io/github/license/SPARC-FAIR-codeathon/sparc-spy.svg?style=flat-square
 [license-url]: https://github.com/SPARC-FAIR-codeathon/sparc-spy/blob/master/LICENSE
 [code-of-conduct-shield]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
-[pypi-shield]: https://badge.fury.io/py/{sparc_spy}.svg
-[pypi-url]: https://pypi.python.org/pypi/{sparc_spy}}/
+[pypi-shield]: https://badge.fury.io/py/sparc_spy.svg
+[pypi-url]: https://pypi.python.org/pypi/sparc_spy/
 [conventional-commits-shield]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white
 [conventional-commits-url]: https://conventionalcommits.org
 

@@ -119,6 +119,7 @@ init:             ## Initialize the project based on an application template.
 .PHONY: build
 build: clean
 	@python3 -m build
+	@python3 -m twine upload dist/*
 
 # This project has been generated from rochacbruno/python-project-template
 # __author__ = 'rochacbruno'
