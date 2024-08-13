@@ -133,7 +133,7 @@ class Scaffold(object):
 
         Args:
             output_filepath (str, optional): output_filepath (str): Output file
-            path to save .vtk file. Defaults to "output.vtk".
+            path to save .stl file. Defaults to "output.vtk".
         """  
         self.meshes.export(output_filepath, base_path)
 
@@ -149,7 +149,7 @@ class Scaffold(object):
             mesh_name (str): User defined name for the mesh
             mesh (Mesh): Mesh containing new experimental data
         """
-        return
+        self.meshes[mesh_name] = mesh
 
     def get_mesh_details(self):
         """List all meshes with their corresponding user defined names. These IDs
