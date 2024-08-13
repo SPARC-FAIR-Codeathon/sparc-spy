@@ -88,7 +88,7 @@ The SPARC-SPy tool has been developed to integrate existing SPARC tools such as 
 Visualizations can make complex data more engaging and easier to communicate to a broader audience, including those without a technical background. Using SPARC-SPy for reconstructing visualizations, researchers can more effectively analyze and interpret SPARC’s public data, making it more accessible and understandable, which in turn increases its visibility and impact. The tool can help users discover new insights and patterns within SPARC’s datasets, potentially leading to new research questions and applications and the end goal of effective treatments.
 
 
-![alt text](https://github.com/SPARC-FAIR-Codeathon/sparc-spy/blob/tutorial_1/tutorials/images/4.gif)
+![alt text](https://github.com/SPARC-FAIR-Codeathon/sparc-spy/blob/tutorial_1/tutorials/images/5.gif)
 
 
 ## Setting up SPARC-SPy
