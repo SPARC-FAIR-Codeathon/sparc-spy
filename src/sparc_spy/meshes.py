@@ -2,22 +2,27 @@ import os
 import shutil
 import pyvista as pv
 from io import StringIO
+ 
 
-class Meshes(object):
+class Meshes(pv.MultiBlock): 
     def __init__(self) -> None:
-        self.meshes = pv.MultiBlock()  
+        super().__init__()
 
     def add_mesh(self, label: str, mesh: pv.PolyData): 
-        self.meshes.append(label, mesh) 
+        self.append(label, mesh) 
 
     def export(self, output_filepath: str = "output.stl", base_path='.'):  
-        save_multiblock_stl(self.meshes, output_filepath, base_path) 
+        save_multiblock_stl(self, output_filepath, base_path) 
 
-    def items(self):
-        items = []
-        for key in self.meshes.keys():
-            items.append((key, self.meshes[key]))
-        return items
+    def items(self): 
+        '''  
+        This function should return the label and meshes (pv.PolyData) in the MultiBlock object.
+        ''' 
+        blocks = [] 
+        for name in self.keys(): 
+            blocks.append((name, self[name]))
+
+        return blocks
     
 
 def save_multiblock_stl(multiblock, filename, base_path='.'):
