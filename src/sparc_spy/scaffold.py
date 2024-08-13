@@ -109,6 +109,7 @@ class Scaffold(object):
                 with open(path, "r") as f:
                     data = json.load(f)
 
+
                 faces = np.array(data["faces"])
                 faces = faces.reshape(-1, n_elem)
                 faces = faces[:, 1:4]
@@ -118,6 +119,13 @@ class Scaffold(object):
                 vertices = vertices.reshape(-1, 3)
 
                 mesh = pv.PolyData(vertices, faces)
+
+                # TODO: Remove hard corded dataset check and make the colour data 
+                # metadata retrieval runtime.
+                if "colors" in data.keys() and self.name == "rat_intervension":
+                    colour_data = np.array(data['colors'])
+                    mesh['innervation_density'] = colour_data
+
                 self.meshes[label] = mesh
 
     def plot(self):
