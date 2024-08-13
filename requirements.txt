@@ -5,3 +5,4 @@ hurry.filesize==0.9
 tabulate==0.9.0
 sparc-me==3.0.0
 numpy==2.0.1
+pyvista==0.44.1
