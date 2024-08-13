@@ -93,6 +93,9 @@ Visualizations can make complex data more engaging and easier to communicate to 
 ### Enable analysis of field data
 The SPARC-SPy tool is able to display field data associated with a scaffold. In the example below axon innervation data digitally traced from a flat-mount sample retrieved from the ventral stomach of subject 115 is used to compute a smooth innervation density distribution field. The data is mapped onto a common coordinate framework provided by the generic rat stomach scaffold. The coloured lines represent the axon innervation while the white-to-blue spectrum represents the spatial distribution of innervation density, with blue representing areas with dense innervation and white areas are sparse in innervation
 
+![alt text](https://github.com/SPARC-FAIR-Codeathon/sparc-spy/blob/tutorial_1/tutorials/images/1.png)
+
+
 ## Setting up SPARC-SPy
 ### Pre-requisites 
 - [Git](https://git-scm.com/)
