@@ -123,8 +123,8 @@ class Scaffold(object):
     def plot(self):
         """Plot the scaffold with all meshes along with checkboxes to activate
         or deactivate meshes."""
-        pv.global_theme.color_cycler = ["#DA627D", "#33658A", "#86BBD8", "#06969A", "#9A348E"]
-        colors = ["#DA627D", "#33658A", "#86BBD8", "#06969A", "#9A348E"]
+        pv.global_theme.color_cycler = ["#DA627D", "#33658A", "#86BBD8", "#06969A", "#9A348E", "#FFD166", "#EF476F", "#06D6A0", "#118AB2", "#073B4C"]
+        colors = ["#DA627D", "#33658A", "#86BBD8", "#06969A", "#9A348E", "#FFD166", "#EF476F", "#06D6A0", "#118AB2", "#073B4C"]
 
         p = pv.Plotter(window_size=[1200, 1000])
         # open or close the visibility of mesh
@@ -237,7 +237,7 @@ class Scaffold(object):
         p.enable_point_picking(callback=on_click, pickable=True, show_message=False, use_mesh=True)
         p.show_axes()
         # p.add_legend()
-        p.show()
+        p.show() 
 
     def export(self, output_filepath: str = "output.stl", base_path="."):
         """Export the scaffold to a .stl file
