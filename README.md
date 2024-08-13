@@ -160,12 +160,6 @@ Included are guided tutorials covering some applications of SPARC-SPy:
     </a></td>
     <td> <b>Into the flow</b> - In this tutorial, we show how SPARC-SPy can be used with existing tools such as sparc-flow to simplify visualisation workflows.
   </tr>
-  <tr>
-    <td><a href="tutorials/tutorial_6_mapping_new_data.ipynb">
-    Tutorial 6: 
-    </a></td>
-    <td> <b>Mapping new data</b> - In this tutorial, we show how new experimental data can be imported into a scaffold.
-  </tr>
 </tbody>
 </table>
 <p align="center">
